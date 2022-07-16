@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 8d4bb3347cc86403a80b7835e30eb33e, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -21,6 +21,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -36,7 +40,7 @@ Material:
     m_Floats:
     - _ASEOutlineWidth: 0.002
     - _HighLightPower: 18.1
-    - _HighLighttimes: 4.1
+    - _HighLighttimes: 4.11
     - _RimOffset: 0.49
     - _RimPower: 0.5
     - __dirty: 0

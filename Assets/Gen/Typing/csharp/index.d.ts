@@ -4236,6 +4236,7 @@ declare module 'csharp' {
             {
                 protected [__keep_incompatibility]: never;
                 public SortComponet () : void
+                public static SelectDir ($tar: ResTool) : void
                 public static SetName ($tar: ResTool, $tag?: string) : void
                 public static Clear ($tar: ResTool) : void
                 public static AsPrefabe ($tar: ResTool) : void

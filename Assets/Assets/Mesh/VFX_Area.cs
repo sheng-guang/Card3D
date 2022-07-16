@@ -38,7 +38,7 @@ public class VFX_Area : MeshRes
     {
         var c = this.ExParam<Color>(nn.color).Value;
         m.GetPropertyBlock(new MaterialPropertyBlock().MarkAs(out var block));
-        block.SetColor("Color_", c);
+        block.SetColor("_Color", c);
         m.SetPropertyBlock(block);
 
     }

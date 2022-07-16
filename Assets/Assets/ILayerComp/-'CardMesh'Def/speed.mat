@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: d623e8b464080457dbe8233afb8aa2f3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -30,6 +30,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - __dirty: 0
     - _power: 1
     m_Colors:
     - _Color0: {r: 1, g: 0, b: 0, a: 0}

@@ -139,6 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 628250708}
+  canvas: {fileID: 0}
   Angle: 45
   FarNearDis: 0.2
   SpaceWide: 1

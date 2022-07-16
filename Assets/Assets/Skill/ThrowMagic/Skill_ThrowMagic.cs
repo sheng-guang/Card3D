@@ -9,7 +9,7 @@ public class ThrowMagic : InputSkill_Delegate
     public override void OnSetID_LoadStructure()
     {
         eveInputSkill.EnableOneTargetMode(this);
-        eveInputSkill.EnableReach(this, 10.0f);
+        eveInputSkill.EnableReach(this, 15.0f);
         eveInputSkill.EnableThrowOffset(this, 1f, 0.5f);
         eveInputSkill.EnableThrowLine(this, false);
         eveInputSkill.EnableNewSkill(this, nameof(_ThrowMagic),SkillListKind.Long);

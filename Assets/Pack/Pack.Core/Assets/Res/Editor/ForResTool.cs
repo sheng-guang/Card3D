@@ -47,9 +47,13 @@ public class ForResTool : Editor<ResTool>
         if (GUILayout.Button("AsPackage")) { SetName(tar, GraphSetting.PipLineTag); AsPackage(tar); }
 
         GUILayout.EndHorizontal();
-
+        if (GUILayout.Button("SelectDir")) { SelectDir(tar); }
         base.OnInspectorGUI();
 
+    }
+    public static void SelectDir(ResTool tar)
+    {
+        //AssetDatabase.CreateFolder
     }
     public static void SetName(ResTool tar,string tag=null)
     {
