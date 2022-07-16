@@ -4071,7 +4071,7 @@ declare module 'csharp' {
                 public firstTime : boolean
                 public constructor ()
             }
-            class VarUnit extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, ISetFullName, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class VarUnit extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISetFullName, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
             {
                 protected [__keep_incompatibility]: never;
                 public PackName_ : string
@@ -4085,7 +4085,7 @@ declare module 'csharp' {
             interface ISetFullName
             {
             }
-            class VarUnitNoData extends VarUnit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, ISetFullName, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class VarUnitNoData extends VarUnit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISetFullName, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
             {
                 protected [__keep_incompatibility]: never;
                 public get CreatUnitData(): boolean;
