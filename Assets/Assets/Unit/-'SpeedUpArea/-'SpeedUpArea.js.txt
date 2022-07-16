@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+const FullName_1 = require("FullName");
+let create = function (a) {
+    let re = csharp_1.eveTS.NewUnitTemplate_ReName(FullName_1.fullN.Unit.___, FullName_1.fullN.Unit.__SpeedUpArea);
+    re.ActOnSetID_Awake.AddAct((u) => {
+        let use = csharp_1.eve.CreatSkill(FullName_1.fullN.Skill.ThrowMagic).Origin();
+        re.AddSkill(use, csharp_1.SkillKind.Input, 0);
+        let a = re.AddMesh(FullName_1.fullN.Mesh.M_VFX_Area);
+        re.AddMesh(FullName_1.fullN.Mesh.M_SpeedUpMesh);
+        a.ExTrySetExtension(csharp_1.nn.R, 3);
+        let buff = csharp_1.Layer.CreatSkill(FullName_1.fullN.Skill.Skill_Buff_SpeedUpArea).Origin();
+        csharp_1.eve.AddSkill(re, buff, csharp_1.SkillKind.BuffSkill);
+    });
+    return re;
+};

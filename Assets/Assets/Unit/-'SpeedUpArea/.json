@@ -1,0 +1,467 @@
+{
+    "graph": {
+        "variables": {
+            "collection": {
+                "$content": [],
+                "$version": "A"
+            },
+            "$version": "A"
+        },
+        "controlInputDefinitions": [],
+        "controlOutputDefinitions": [],
+        "valueInputDefinitions": [],
+        "valueOutputDefinitions": [],
+        "title": null,
+        "summary": null,
+        "pan": {
+            "x": 298.8565,
+            "y": 72.10907
+        },
+        "zoom": 1.0,
+        "elements": [
+            {
+                "coroutine": false,
+                "defaultValues": {},
+                "position": {
+                    "x": -374.0,
+                    "y": -313.0
+                },
+                "guid": "d374db5c-fff9-4087-b7f2-220d02ff4466",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.Start",
+                "$id": "9"
+            },
+            {
+                "chainable": false,
+                "member": {
+                    "name": "AddMesh",
+                    "parameterTypes": [
+                        "System.String"
+                    ],
+                    "targetType": "Pack.LayerID",
+                    "targetTypeName": "Pack.LayerID",
+                    "$version": "A"
+                },
+                "defaultValues": {
+                    "target": null,
+                    "%FullName": {
+                        "$content": "M''SpeedUpMesh",
+                        "$type": "System.String"
+                    }
+                },
+                "position": {
+                    "x": 90.0,
+                    "y": 25.0
+                },
+                "guid": "36c95b52-9647-4a61-9158-85f795d49e07",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.InvokeMember",
+                "$id": "11"
+            },
+            {
+                "chainable": false,
+                "member": {
+                    "name": "GetNewOrigin",
+                    "parameterTypes": [
+                        "System.String"
+                    ],
+                    "targetType": null,
+                    "targetTypeName": "Pack.SkillCreater",
+                    "$version": "A"
+                },
+                "defaultValues": {},
+                "position": {
+                    "x": -179.0,
+                    "y": -406.0
+                },
+                "guid": "a2ceefd5-6eff-4e15-a778-2bb9d22fe230",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.InvokeMember",
+                "$id": "14"
+            },
+            {
+                "type": "System.Single",
+                "value": {
+                    "$content": 3.0,
+                    "$type": "System.Single"
+                },
+                "defaultValues": {},
+                "position": {
+                    "x": 389.0,
+                    "y": 58.0
+                },
+                "guid": "3c80ff83-7112-4f3a-8286-102ffebc389a",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.Literal",
+                "$id": "17"
+            },
+            {
+                "chainable": false,
+                "member": {
+                    "name": "AddSkill_2input_4call_8call50",
+                    "parameterTypes": [
+                        "System.Object",
+                        "System.Int32",
+                        "System.Byte"
+                    ],
+                    "targetType": "Pack.LayerID",
+                    "targetTypeName": "Pack.LayerID",
+                    "$version": "A"
+                },
+                "defaultValues": {
+                    "target": null,
+                    "%AddOption": {
+                        "$content": 2,
+                        "$type": "System.Int32"
+                    },
+                    "%Ex_kind": {
+                        "$content": 0,
+                        "$type": "System.Byte"
+                    }
+                },
+                "position": {
+                    "x": 93.0,
+                    "y": 168.0
+                },
+                "guid": "bb2bd09b-6082-469a-baeb-7df3c3c442f7",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.InvokeMember",
+                "$id": "19"
+            },
+            {
+                "chainable": false,
+                "member": {
+                    "name": "AddSkill_2input_4call_8call50",
+                    "parameterTypes": [
+                        "System.Object",
+                        "System.Int32",
+                        "System.Byte"
+                    ],
+                    "targetType": "Pack.LayerID",
+                    "targetTypeName": "Pack.LayerID",
+                    "$version": "A"
+                },
+                "defaultValues": {
+                    "target": null,
+                    "%AddOption": {
+                        "$content": 0,
+                        "$type": "System.Int32"
+                    },
+                    "%Ex_kind": {
+                        "$content": 0,
+                        "$type": "System.Byte"
+                    }
+                },
+                "position": {
+                    "x": 112.0,
+                    "y": -327.0
+                },
+                "guid": "c37edcbf-0286-46a1-843f-2a3454c4a436",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.InvokeMember",
+                "$id": "22"
+            },
+            {
+                "chainable": false,
+                "member": {
+                    "name": "GetComponent",
+                    "parameterTypes": [
+                        "System.Type"
+                    ],
+                    "targetType": "UnityEngine.Component",
+                    "targetTypeName": "UnityEngine.Component",
+                    "$version": "A"
+                },
+                "defaultValues": {
+                    "target": null,
+                    "%type": {
+                        "$content": "Pack.LayerID",
+                        "$type": "System.RuntimeType"
+                    }
+                },
+                "position": {
+                    "x": -193.0,
+                    "y": -285.0
+                },
+                "guid": "c38f6caa-e34e-44a1-95a0-d181831d7591",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.InvokeMember",
+                "$id": "25"
+            },
+            {
+                "member": {
+                    "name": "R",
+                    "parameterTypes": null,
+                    "targetType": "Pack.NN",
+                    "targetTypeName": "Pack.NN",
+                    "$version": "A"
+                },
+                "defaultValues": {},
+                "position": {
+                    "x": 368.0,
+                    "y": -74.0
+                },
+                "guid": "fb35fb79-2d4c-428a-8fb5-5b49b95e6d01",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.GetMember",
+                "$id": "28"
+            },
+            {
+                "chainable": false,
+                "member": {
+                    "name": "Ex_TrySetExtension",
+                    "parameterTypes": [
+                        "System.String",
+                        "System.Object"
+                    ],
+                    "targetType": "System.Object",
+                    "targetTypeName": "System.Object",
+                    "$version": "A"
+                },
+                "defaultValues": {
+                    "%DataName": {
+                        "$content": "",
+                        "$type": "System.String"
+                    }
+                },
+                "position": {
+                    "x": 607.0,
+                    "y": -106.0
+                },
+                "guid": "0e6d1809-0660-403d-856d-c35ca54d32e6",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.InvokeMember",
+                "$id": "31"
+            },
+            {
+                "chainable": false,
+                "member": {
+                    "name": "GetNewOrigin",
+                    "parameterTypes": [
+                        "System.String"
+                    ],
+                    "targetType": null,
+                    "targetTypeName": "Pack.SkillCreater",
+                    "$version": "A"
+                },
+                "defaultValues": {},
+                "position": {
+                    "x": -180.0,
+                    "y": 157.0
+                },
+                "guid": "df31d239-698b-4a76-8f85-d78f4f4a96e1",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.InvokeMember",
+                "$id": "34"
+            },
+            {
+                "chainable": false,
+                "member": {
+                    "name": "AddMesh",
+                    "parameterTypes": [
+                        "System.String"
+                    ],
+                    "targetType": "Pack.LayerID",
+                    "targetTypeName": "Pack.LayerID",
+                    "$version": "A"
+                },
+                "defaultValues": {
+                    "target": null,
+                    "%FullName": {
+                        "$content": "M''VFX_Area",
+                        "$type": "System.String"
+                    }
+                },
+                "position": {
+                    "x": 113.0,
+                    "y": -138.0
+                },
+                "guid": "6615772a-2d73-4641-8aef-df5026d499c5",
+                "$version": "A",
+                "$type": "Unity.VisualScripting.InvokeMember",
+                "$id": "37"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "9"
+                },
+                "sourceKey": "trigger",
+                "destinationUnit": {
+                    "$ref": "25"
+                },
+                "destinationKey": "enter",
+                "guid": "76ce7dd9-e378-4366-91ae-b34e2d4652d8",
+                "$type": "Unity.VisualScripting.ControlConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "31"
+                },
+                "sourceKey": "exit",
+                "destinationUnit": {
+                    "$ref": "11"
+                },
+                "destinationKey": "enter",
+                "guid": "2ebb4491-09ed-49f8-b859-e996412a325f",
+                "$type": "Unity.VisualScripting.ControlConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "22"
+                },
+                "sourceKey": "exit",
+                "destinationUnit": {
+                    "$ref": "37"
+                },
+                "destinationKey": "enter",
+                "guid": "01ca49a6-1fc6-45d5-a2a4-c108f374cf46",
+                "$type": "Unity.VisualScripting.ControlConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "11"
+                },
+                "sourceKey": "exit",
+                "destinationUnit": {
+                    "$ref": "19"
+                },
+                "destinationKey": "enter",
+                "guid": "1d8a6da1-fdfd-45ae-8438-7fa674cf4453",
+                "$type": "Unity.VisualScripting.ControlConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "37"
+                },
+                "sourceKey": "exit",
+                "destinationUnit": {
+                    "$ref": "31"
+                },
+                "destinationKey": "enter",
+                "guid": "e3bf23d5-ebff-47da-a99e-86a60d90ffb6",
+                "$type": "Unity.VisualScripting.ControlConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "25"
+                },
+                "sourceKey": "exit",
+                "destinationUnit": {
+                    "$ref": "22"
+                },
+                "destinationKey": "enter",
+                "guid": "18d17b99-63ea-478f-831b-fadf9003ba5b",
+                "$type": "Unity.VisualScripting.ControlConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "28"
+                },
+                "sourceKey": "value",
+                "destinationUnit": {
+                    "$ref": "31"
+                },
+                "destinationKey": "%DataName",
+                "guid": "aabc4c12-e062-40c4-899a-f380b48af644",
+                "$type": "Unity.VisualScripting.ValueConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "25"
+                },
+                "sourceKey": "result",
+                "destinationUnit": {
+                    "$ref": "11"
+                },
+                "destinationKey": "target",
+                "guid": "8865a505-0b33-4592-a6dc-5e10141a05c8",
+                "$type": "Unity.VisualScripting.ValueConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "25"
+                },
+                "sourceKey": "result",
+                "destinationUnit": {
+                    "$ref": "19"
+                },
+                "destinationKey": "target",
+                "guid": "d2259442-1e25-4e03-8590-6cdebfa68acc",
+                "$type": "Unity.VisualScripting.ValueConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "25"
+                },
+                "sourceKey": "result",
+                "destinationUnit": {
+                    "$ref": "22"
+                },
+                "destinationKey": "target",
+                "guid": "e65984d5-6ab2-4767-a4e2-6e978123fe8e",
+                "$type": "Unity.VisualScripting.ValueConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "25"
+                },
+                "sourceKey": "result",
+                "destinationUnit": {
+                    "$ref": "37"
+                },
+                "destinationKey": "target",
+                "guid": "c020ccaa-20b6-4774-bf8a-96dcf22bb3dc",
+                "$type": "Unity.VisualScripting.ValueConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "37"
+                },
+                "sourceKey": "result",
+                "destinationUnit": {
+                    "$ref": "31"
+                },
+                "destinationKey": "target",
+                "guid": "a27eb1d6-bf51-4d2c-99b2-397a81944200",
+                "$type": "Unity.VisualScripting.ValueConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "17"
+                },
+                "sourceKey": "output",
+                "destinationUnit": {
+                    "$ref": "31"
+                },
+                "destinationKey": "%value",
+                "guid": "9f9f99cb-f1c9-4bb1-8792-1249265c1165",
+                "$type": "Unity.VisualScripting.ValueConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "14"
+                },
+                "sourceKey": "result",
+                "destinationUnit": {
+                    "$ref": "22"
+                },
+                "destinationKey": "%to",
+                "guid": "d6e6937e-1e39-4caa-ae24-731251f6b500",
+                "$type": "Unity.VisualScripting.InvalidConnection"
+            },
+            {
+                "sourceUnit": {
+                    "$ref": "34"
+                },
+                "sourceKey": "result",
+                "destinationUnit": {
+                    "$ref": "19"
+                },
+                "destinationKey": "%to",
+                "guid": "ffefbc55-c725-42bf-81d5-ee13a1c1c67f",
+                "$type": "Unity.VisualScripting.InvalidConnection"
+            }
+        ],
+        "$version": "A"
+    }
+}

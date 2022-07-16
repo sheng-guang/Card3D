@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+const FullName_1 = require("FullName");
+let init = function (u) {
+    {
+        let p = csharp_1.Layer.CreatSkill(FullName_1.fullN.Skill.ThrowMagic).Origin();
+        u.AddSkill(p, csharp_1.SkillKind.Input, 0);
+    }
+    {
+        let s = csharp_1.Layer.CreatSkill(FullName_1.fullN.Skill.S_OnSummonAddAtk).Origin();
+        u.AddSkill(s, csharp_1.SkillKind.TriggerSkill);
+    }
+    // {
+    //     let a= u.AddMesh("M'VFX_Area")
+    //     a.Ex_TrySetExtension(NN.R,3);
+    // }
+    {
+        u.AddMesh(FullName_1.fullN.Mesh.M_SpeedUpMesh);
+    }
+    // {
+    //     let buff=Pack.Layer.CreatSkill("Skill_Buff_SpeedUpArea").Origin()
+    //     u.AddSkill(buff,0);
+    // }
+};

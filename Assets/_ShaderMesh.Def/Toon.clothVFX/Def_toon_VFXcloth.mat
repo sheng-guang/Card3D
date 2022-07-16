@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Def_toon_VFXcloth
+  m_Shader: {fileID: 4800000, guid: e1fcefc9c355745209d573fcfd25a517, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _color:
+        m_Texture: {fileID: 2800000, guid: cadd6f730cefd1b48b4774765ee29d28, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ASEOutlineWidth: 0.005
+    - _RimOffset: 0.24
+    - _RimPower: 0.5
+    - __dirty: 0
+    - _scale: 1
+    m_Colors:
+    - _ASEOutlineColor: {r: 0.3820755, g: 0.77547324, b: 1, a: 0.4666667}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0, g: 1, b: 0.8758622, a: 0}
+  m_BuildTextureStacks: []

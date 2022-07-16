@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+let create = function (a) {
+    let re = new csharp_1.Buff_Delegate();
+    re.A_FreshActive.AddAct((b) => {
+    });
+    re.A_Apply.AddAct((b) => {
+    });
+};

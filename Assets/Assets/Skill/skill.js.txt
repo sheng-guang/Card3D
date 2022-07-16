@@ -1,0 +1,19 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+let create = function (a) {
+    console.log("js enter");
+    let re = new csharp_1.LSkill();
+    re.A_FixStart.Add("SN_SetUp_Player");
+    re.A_FixStart.Add("SN_SetSpace_Spce");
+    re.A_Fix.Add("SN_SetPoss")
+        .TrySetData(csharp_1.NN.Point, re.StartV3)
+        .TrySetData(csharp_1.NN.OffSet, csharp_1.UnityEngine.Vector3.up);
+    re.A_Fix.Add("SN_SetPoss")
+        .TrySetData(csharp_1.NN.Unit, re.SelfHero)
+        .TrySetData(csharp_1.NN.Point, re.TarV3);
+    console.log("js re:" + re);
+    return re;
+
+    re
+};

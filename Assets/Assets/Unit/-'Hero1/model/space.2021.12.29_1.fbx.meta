@@ -1,0 +1,1048 @@
+fileFormatVersion: 2
+guid: bcb846a25a64fca48913f4cf06f50bde
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 7559531130590227354
+    second: Joints|Joints|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Avatar creation failed:\n\tTransform 'RT02:RT:Lefthand_Joint'
+      is not an ancestor of 'RT02:RT:RD'\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: RT02:Mesh_Joint
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RightBleg_Kuan
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RightSleg_Xigai
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RightFoot_Jiaohuai
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:MeshYao_Joint
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RightXiong_Joint
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RightBhand_Joint
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RightShand_Joint
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:Righthand_Joint
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:Bozi_Joint
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:TouD_Joint
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:LeftXiong_Joint
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:LeftBhand_Joint
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:LeftShand_Joint
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:Lefthand_Joint
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:LeftBleg_Kuan
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:LeftSleg_Xigai
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:LeftFoot_Jiaohuai
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:MeshXiong_Joint
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:LD
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint6
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint7
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:LS
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint10
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint11
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:LZ
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint14
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint15
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:LW
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint18
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint19
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:LX
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint22
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint23
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RD
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint37
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint38
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RS
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint34
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint35
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RZ
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint31
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint32
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RW
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint28
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint29
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:RX
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint25
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RT02:RT:MeshXiong_Joint26
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: space.2021.12.29_1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloth.gem
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 0.000000006482005, y: -0.000000046265054, z: 2.9801564e-10}
+      rotation: {x: 0.000000081343934, y: -9.240466e-10, z: -1.8735015e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloth.metal
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 0.000000006482005, y: -0.000000046265054, z: 2.9801564e-10}
+      rotation: {x: 0.000000081343934, y: -9.240466e-10, z: -1.8735015e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloth.space
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 0.000000006482005, y: -0.000000046265054, z: 2.9801564e-10}
+      rotation: {x: 0.000000081343934, y: -9.240466e-10, z: -1.8735015e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot.ring.L.gem
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 0.0000000013411044, y: 0.00000002100302, z: 0.0000000017881427}
+      rotation: {x: 0.000000079597704, y: -3.6379714e-12, z: -5.89806e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot.ring.L.metal
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 0.0000000013411044, y: 0.00000002100302, z: 0.0000000017881427}
+      rotation: {x: 0.000000079597704, y: -3.6379714e-12, z: -5.89806e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot.ring.L.space
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 0.0000000013411044, y: 0.00000002100302, z: 0.0000000017881427}
+      rotation: {x: 0.000000079597704, y: -3.6379714e-12, z: -5.89806e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot.ring.R.gem
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 1.4901161e-10, y: 0.000000026649595, z: 0.0000000011920971}
+      rotation: {x: 0.00000008052902, y: -2.7755576e-17, z: 3.469447e-17, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: foot.ring.R.metal
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 1.4901161e-10, y: 0.000000026649595, z: 0.0000000011920971}
+      rotation: {x: 0.00000008052902, y: -2.7755576e-17, z: 3.469447e-17, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: foot.ring.R.space
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 1.4901161e-10, y: 0.000000026649595, z: 0.0000000011920971}
+      rotation: {x: 0.00000008052902, y: -2.7755576e-17, z: 3.469447e-17, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: hiar
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: -0, y: 3.201546e-23, z: -1.9650947e-16}
+      rotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joints
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:Mesh_Joint
+      parentName: Joints
+      position: {x: 0.0000121812645, y: 1.0027307, z: 0.022200754}
+      rotation: {x: -0.0034186388, y: -0.009762625, z: 0.3304805, w: 0.94375616}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1}
+    - name: RT02:LeftBleg_Kuan
+      parentName: RT02:Mesh_Joint
+      position: {x: -0.118968196, y: -0.000000023543834, z: 0.0000000015242068}
+      rotation: {x: 0.597419, y: 0.2981008, z: 0.3488731, w: 0.6576579}
+      scale: {x: 0.99999976, y: 1.0000002, z: 0.9999999}
+    - name: RT02:LeftSleg_Xigai
+      parentName: RT02:LeftBleg_Kuan
+      position: {x: -0.35880163, y: -0.000000022053719, z: -0.00000011771917}
+      rotation: {x: 0.03616408, y: -0.028131858, z: 0.013696125, w: 0.99885595}
+      scale: {x: 1.0000004, y: 0.9999996, z: 0.99999994}
+    - name: RT02:LeftFoot_Jiaohuai
+      parentName: RT02:LeftSleg_Xigai
+      position: {x: -0.47003353, y: 0.00000006228685, z: -0.00000010810125}
+      rotation: {x: -0.026154066, y: -0.015011727, z: -0.5454286, w: 0.83761466}
+      scale: {x: 1.0000007, y: 1.0000005, z: 0.9999999}
+    - name: RT02:LeftFoot_Jiaozhi
+      parentName: RT02:LeftFoot_Jiaohuai
+      position: {x: -0.18243752, y: -0.000000117421145, z: -0.00000005875616}
+      rotation: {x: 0.000000018719554, y: -0.00000000983246, z: -0.000000013271347, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: RT02:LeftFoot_Jiaozhi_end
+      parentName: RT02:LeftFoot_Jiaozhi
+      position: {x: -0, y: 0.18243757, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:RightBleg_Kuan
+      parentName: RT02:Mesh_Joint
+      position: {x: 0.026302822, y: -0.11596026, z: -0.003846042}
+      rotation: {x: 0.6951531, y: 0.30244538, z: 0.27365994, w: 0.5919453}
+      scale: {x: 0.9999996, y: 1.0000002, z: 0.9999998}
+    - name: RT02:RT:RightSleg_Xigai
+      parentName: RT02:RT:RightBleg_Kuan
+      position: {x: -0.35880095, y: -0.00000002503395, z: -0.00000014454126}
+      rotation: {x: -0.036163386, y: 0.028131727, z: 0.013696207, w: 0.99885595}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1.0000001}
+    - name: RT02:RT:RightFoot_Jiaohuai
+      parentName: RT02:RT:RightSleg_Xigai
+      position: {x: -0.47003448, y: -0.00000005185604, z: -0.00000013771296}
+      rotation: {x: 0.026153656, y: 0.015011348, z: -0.5454295, w: 0.83761406}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999997}
+    - name: RT02:RT:RightFoot_Jiaozhi
+      parentName: RT02:RT:RightFoot_Jiaohuai
+      position: {x: -0.18243745, y: -0.00000007301569, z: -0.00000002356893}
+      rotation: {x: -0.000000019965045, y: 0.000000020909324, z: 0.000000107567764, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: RT02:RT:RightFoot_Jiaozhi_end
+      parentName: RT02:RT:RightFoot_Jiaozhi
+      position: {x: -0, y: 0.1824375, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:MeshYao_Joint
+      parentName: RT02:Mesh_Joint
+      position: {x: 0.09694015, y: 0.12091156, z: 0.016039444}
+      rotation: {x: -0.2980668, y: 0.64923, z: -0.62491184, w: 0.3148681}
+      scale: {x: 0.99999964, y: 0.99999964, z: 0.99999976}
+    - name: RT02:MeshXiong_Joint
+      parentName: RT02:MeshYao_Joint
+      position: {x: -0.16685373, y: 0.000000014900554, z: 0.000000013599013}
+      rotation: {x: -0.045120377, y: 0.004414449, z: 0.07275535, w: 0.99631894}
+      scale: {x: 1.0000007, y: 1.0000008, z: 0.99999976}
+    - name: RT02:RT:LeftXiong_Joint
+      parentName: RT02:MeshXiong_Joint
+      position: {x: -0.08984366, y: 0.08202173, z: -0.06882436}
+      rotation: {x: 0.4816654, y: -0.57789457, z: 0.42126626, w: 0.50652844}
+      scale: {x: 1.0000001, y: 0.99999964, z: 0.9999994}
+    - name: RT02:RT:LeftBhand_Joint
+      parentName: RT02:RT:LeftXiong_Joint
+      position: {x: -0.04231744, y: 0.00000013279644, z: -0.000000004884837}
+      rotation: {x: 0.0018472814, y: 0.033477444, z: 0.0385987, w: 0.99869215}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: RT02:RT:LeftShand_Joint
+      parentName: RT02:RT:LeftBhand_Joint
+      position: {x: -0.25600782, y: -0.00000030102905, z: -0.000000028032042}
+      rotation: {x: 0.64548486, y: 0.003771638, z: -0.033552486, w: 0.7630265}
+      scale: {x: 0.9999995, y: 0.9999999, z: 0.99999976}
+    - name: RT02:RT:Lefthand_Joint
+      parentName: RT02:RT:LeftShand_Joint
+      position: {x: -0.2274345, y: -0.000000047683713, z: 0.000000062584874}
+      rotation: {x: -0.6623514, y: -0.08479975, z: 0.10816567, w: 0.736478}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.99999976}
+    - name: RT02:RT:LX
+      parentName: RT02:RT:Lefthand_Joint
+      position: {x: -0.09920372, y: -0.00000012315809, z: -0.000000022649765}
+      rotation: {x: -0.0120538715, y: 0.15831077, z: -0.016067894, w: 0.98718506}
+      scale: {x: 0.99999994, y: 0.9999996, z: 0.99999964}
+    - name: RT02:RT:MeshXiong_Joint22
+      parentName: RT02:RT:LX
+      position: {x: -0.025069887, y: 0.0000001866743, z: -0.00000002503395}
+      rotation: {x: 0.0013553511, y: 0.0035199164, z: 0.025697138, w: 0.9996627}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000007}
+    - name: RT02:RT:MeshXiong_Joint23
+      parentName: RT02:RT:MeshXiong_Joint22
+      position: {x: -0.020167265, y: 0.000000021904706, z: 0}
+      rotation: {x: 0.016097141, y: 0.026237093, z: -0.030391317, w: 0.999064}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: RT02:RT:MeshXiong_Joint24
+      parentName: RT02:RT:MeshXiong_Joint23
+      position: {x: -0.018205337, y: 0.00000013642013, z: -0.00000000834465}
+      rotation: {x: 0.000000007101334, y: 0.000000007887138, z: -0.000000041446583, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: RT02:RT:MeshXiong_Joint24_end
+      parentName: RT02:RT:MeshXiong_Joint24
+      position: {x: -0, y: 0.018205428, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:LW
+      parentName: RT02:RT:Lefthand_Joint
+      position: {x: -0.1013074, y: 0.008881365, z: 0.021686025}
+      rotation: {x: 0.0047902144, y: 0.15683736, z: -0.014621179, w: 0.9875046}
+      scale: {x: 1.0000001, y: 0.9999994, z: 1.0000005}
+    - name: RT02:RT:MeshXiong_Joint18
+      parentName: RT02:RT:LW
+      position: {x: -0.031004075, y: 0.000000026226044, z: -5.9604643e-10}
+      rotation: {x: 0.008082495, y: 0.02850224, z: 0.0076177176, w: 0.99953204}
+      scale: {x: 1.0000005, y: 1.0000008, z: 0.9999995}
+    - name: RT02:RT:MeshXiong_Joint19
+      parentName: RT02:RT:MeshXiong_Joint18
+      position: {x: -0.023430772, y: -0.00000015251338, z: -0.000000009536743}
+      rotation: {x: 0.0014228438, y: 0.0050561368, z: -0.009663771, w: 0.9999395}
+      scale: {x: 0.9999998, y: 0.9999997, z: 1.000001}
+    - name: RT02:RT:MeshXiong_Joint20
+      parentName: RT02:RT:MeshXiong_Joint19
+      position: {x: -0.023460297, y: 0.00000026240943, z: -0.000000014305114}
+      rotation: {x: -0.000000006519257, y: -0.000000006519257, z: 0.000000049971266, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: RT02:RT:MeshXiong_Joint20_end
+      parentName: RT02:RT:MeshXiong_Joint20
+      position: {x: -0, y: 0.023460316, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:LZ
+      parentName: RT02:RT:Lefthand_Joint
+      position: {x: -0.09539984, y: 0.013377382, z: 0.04435313}
+      rotation: {x: 0.02107083, y: 0.1670171, z: -0.0024777642, w: 0.98572576}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: RT02:RT:MeshXiong_Joint14
+      parentName: RT02:RT:LZ
+      position: {x: -0.0354392, y: 0.000000072289254, z: -0.00000001579523}
+      rotation: {x: 0.0024103294, y: 0.009386392, z: 0.04043377, w: 0.99913526}
+      scale: {x: 0.9999993, y: 0.9999991, z: 0.9999994}
+    - name: RT02:RT:MeshXiong_Joint15
+      parentName: RT02:RT:MeshXiong_Joint14
+      position: {x: -0.023577, y: -0.0000000062584875, z: 0.0000000035762786}
+      rotation: {x: -0.00045400287, y: -0.001463803, z: 0.008934405, w: 0.99995893}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000006}
+    - name: RT02:RT:MeshXiong_Joint16
+      parentName: RT02:RT:MeshXiong_Joint15
+      position: {x: -0.024312157, y: -0.000000032484532, z: -0.000000017881392}
+      rotation: {x: -0.0000000032596292, y: -0.000000003958121, z: -0.00000004144386, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: RT02:RT:MeshXiong_Joint16_end
+      parentName: RT02:RT:MeshXiong_Joint16
+      position: {x: -0, y: 0.024312302, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:LS
+      parentName: RT02:RT:Lefthand_Joint
+      position: {x: -0.086946845, y: 0.011965277, z: 0.06641765}
+      rotation: {x: 0.036254864, y: 0.21669754, z: 0.010475363, w: 0.97550917}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999997}
+    - name: RT02:RT:MeshXiong_Joint10
+      parentName: RT02:RT:LS
+      position: {x: -0.031647995, y: -0.000000044107438, z: -0.000000042915342}
+      rotation: {x: -0.002590047, y: -0.009779749, z: 0.008718497, w: 0.99991083}
+      scale: {x: 1.0000002, y: 0.99999946, z: 1.0000007}
+    - name: RT02:RT:MeshXiong_Joint11
+      parentName: RT02:RT:MeshXiong_Joint10
+      position: {x: -0.022870256, y: -0.00000009447336, z: -0.000000009536743}
+      rotation: {x: -0.00052432134, y: -0.0020569752, z: -0.018051108, w: 0.99983484}
+      scale: {x: 0.9999994, y: 0.99999976, z: 0.9999995}
+    - name: RT02:RT:MeshXiong_Joint12
+      parentName: RT02:RT:MeshXiong_Joint11
+      position: {x: -0.019195212, y: 0.0000001052022, z: -0.000000014305114}
+      rotation: {x: 9.313226e-10, y: -0.0000000038417056, z: 0.00000002980232, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: RT02:RT:MeshXiong_Joint12_end
+      parentName: RT02:RT:MeshXiong_Joint12
+      position: {x: -0, y: 0.019195158, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:LD
+      parentName: RT02:RT:Lefthand_Joint
+      position: {x: -0.02160189, y: -0.008426745, z: 0.04587348}
+      rotation: {x: 0.84764695, y: -0.052200485, z: -0.51133853, w: -0.13154005}
+      scale: {x: 0.9999998, y: 0.99999946, z: 0.99999917}
+    - name: RT02:RT:MeshXiong_Joint6
+      parentName: RT02:RT:LD
+      position: {x: -0.039684065, y: -0.000000017881392, z: -0.000000047683713}
+      rotation: {x: 0.0010168294, y: -0.008413232, z: -0.025693443, w: 0.99963397}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000007}
+    - name: RT02:RT:MeshXiong_Joint7
+      parentName: RT02:RT:MeshXiong_Joint6
+      position: {x: -0.025472635, y: 0.00000023603438, z: -0.0000000667572}
+      rotation: {x: 0.005222952, y: -0.018532537, z: -0.0066565434, w: 0.99979246}
+      scale: {x: 0.9999992, y: 0.9999998, z: 1}
+    - name: RT02:RT:MeshXiong_Joint8
+      parentName: RT02:RT:MeshXiong_Joint7
+      position: {x: -0.026685294, y: 0.000000166893, z: 0.000000114440915}
+      rotation: {x: -0.00000004470349, y: 0.000000011175872, z: -0.0000000055879363, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: RT02:RT:MeshXiong_Joint8_end
+      parentName: RT02:RT:MeshXiong_Joint8
+      position: {x: -0, y: 0.026685191, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:Bozi_Joint
+      parentName: RT02:MeshXiong_Joint
+      position: {x: -0.134183, y: 0.09743813, z: 0.0066640284}
+      rotation: {x: 0.044902228, y: -0.0062548863, z: -0.03197447, w: 0.99846}
+      scale: {x: 0.99999934, y: 0.9999991, z: 1.0000001}
+    - name: RT02:TouD_Joint
+      parentName: RT02:Bozi_Joint
+      position: {x: -0.05257064, y: 0.000000004768162, z: 0.000000009175315}
+      rotation: {x: -0.0000000016112371, y: 7.5550766e-10, z: -0.015406563, w: 0.9998813}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1}
+    - name: RT02:TouDing_Joint
+      parentName: RT02:TouD_Joint
+      position: {x: -0.21316865, y: 0.000000064372784, z: 0.000000036688625}
+      rotation: {x: -1.787459e-14, y: 4.6387444e-10, z: -0.0000000018626412, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: RT02:TouDing_Joint_end
+      parentName: RT02:TouDing_Joint
+      position: {x: -0, y: 0.15497513, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:joint13
+      parentName: RT02:TouD_Joint
+      position: {x: -0.0056559825, y: 0.060892608, z: 9.727944e-10}
+      rotation: {x: -0.05190828, y: 0.99865186, z: -0.000000027829262, w: 0.00000013478433}
+      scale: {x: 0.9999996, y: 0.9999996, z: 1}
+    - name: RT02:joint14
+      parentName: RT02:joint13
+      position: {x: -0.08575941, y: -0.00000003814813, z: 0.000000027710714}
+      rotation: {x: -0.0000000013679238, y: -0.000000015439007, z: -0.0040510735, w: 0.99999183}
+      scale: {x: 0.99999917, y: 0.9999992, z: 1}
+    - name: RT02:joint15
+      parentName: RT02:joint14
+      position: {x: -0.06402285, y: 0.000000019072344, z: 0.00000002266321}
+      rotation: {x: 0.000000016869453, y: 0.00000010380914, z: 0.06750379, w: 0.99771905}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: RT02:joint16
+      parentName: RT02:joint15
+      position: {x: -0.065909065, y: -0.00000005722178, z: 0.000000009616697}
+      rotation: {x: 0.0000000014793321, y: -0.0000000017364462, z: 0.010050992, w: 0.9999495}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: RT02:joint17
+      parentName: RT02:joint16
+      position: {x: -0.054834638, y: 0.00000007152423, z: 0.000000008191603}
+      rotation: {x: 0.0000000025124278, y: -0.000000004055759, z: 0.016337646, w: 0.99986655}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: RT02:joint18
+      parentName: RT02:joint17
+      position: {x: -0.15944517, y: -0.000000020266956, z: 0.000000025109957}
+      rotation: {x: 1.4141466e-14, y: -3.3063552e-12, z: 0.000000029802306, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:joint18_end
+      parentName: RT02:joint18
+      position: {x: -0, y: 0.15944505, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:joint1
+      parentName: RT02:TouD_Joint
+      position: {x: -0.14789045, y: -0.02077223, z: -0.08691122}
+      rotation: {x: 0.47771147, y: -0.5213365, z: 0.4777114, w: 0.52133656}
+      scale: {x: 1, y: 0.9999996, z: 0.99999964}
+    - name: RT02:RT:joint2
+      parentName: RT02:RT:joint1
+      position: {x: -0.008446091, y: -0.0664322, z: -0.005252202}
+      rotation: {x: 0.00000007671018, y: -0.000000004891314, z: 0.000000058445842, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:joint3
+      parentName: RT02:RT:joint2
+      position: {x: 0.024272826, y: -0.07222, z: 0.029178781}
+      rotation: {x: -6.3031216e-17, y: -1.728588e-16, z: 3.70101e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:joint3_end
+      parentName: RT02:RT:joint3
+      position: {x: -0, y: 0.08158615, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:joint4
+      parentName: RT02:TouD_Joint
+      position: {x: -0.14788617, y: -0.020772645, z: 0.08691122}
+      rotation: {x: 0.52133656, y: 0.47771144, z: 0.5213365, w: -0.4777115}
+      scale: {x: 1, y: 0.9999996, z: 0.99999964}
+    - name: RT02:RT:joint5
+      parentName: RT02:RT:joint4
+      position: {x: 0.008446103, y: 0.066430055, z: 0.0052521885}
+      rotation: {x: 0.000000007235055, y: 0.0000000046142805, z: 0.000000014470114, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:joint6
+      parentName: RT02:RT:joint5
+      position: {x: -0.026830176, y: 0.07222, z: -0.029178785}
+      rotation: {x: -3.9491545e-16, y: 6.160764e-16, z: -3.2847594e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:joint6_end
+      parentName: RT02:RT:joint6
+      position: {x: -0, y: 0.08238312, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:RightXiong_Joint
+      parentName: RT02:MeshXiong_Joint
+      position: {x: -0.09213679, y: 0.068724975, z: 0.07952943}
+      rotation: {x: -0.44094172, y: 0.5301324, z: 0.4637226, w: 0.55631953}
+      scale: {x: 1, y: 0.9999995, z: 0.99999934}
+    - name: RT02:RT:RightBhand_Joint
+      parentName: RT02:RT:RightXiong_Joint
+      position: {x: -0.042317457, y: 0.0000000448179, z: -0.0000000027111855}
+      rotation: {x: -0.0018476986, y: -0.033474315, z: 0.038598895, w: 0.9986923}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: RT02:RT:RightShand_Joint
+      parentName: RT02:RT:RightBhand_Joint
+      position: {x: -0.2560086, y: -0.000000030756926, z: -0.000000005708805}
+      rotation: {x: 0.7630261, y: -0.03356216, z: 0.003772064, w: 0.64548475}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999976}
+    - name: RT02:RT:Righthand_Joint
+      parentName: RT02:RT:RightShand_Joint
+      position: {x: -0.22743493, y: -0.0000000500679, z: -0.00000023663044}
+      rotation: {x: -0.72077966, y: 0.18761364, z: -0.17345251, w: 0.644354}
+      scale: {x: 0.9999993, y: 1.0000001, z: 0.9999999}
+    - name: RT02:RT:RX
+      parentName: RT02:RT:Righthand_Joint
+      position: {x: -0.099202104, y: -0.00000014208257, z: -0.0000000037184509}
+      rotation: {x: 0.012082839, y: -0.15833126, z: -0.016003463, w: 0.98718244}
+      scale: {x: 1.0000004, y: 0.99999964, z: 0.99999994}
+    - name: RT02:RT:MeshXiong_Joint25
+      parentName: RT02:RT:RX
+      position: {x: -0.025072372, y: -0.00000014826655, z: 0.000000004952153}
+      rotation: {x: -0.0013562514, y: -0.0035200985, z: 0.025635237, w: 0.99966425}
+      scale: {x: 1.0000001, y: 1.0000007, z: 0.9999994}
+    - name: RT02:RT:MeshXiong_Joint26
+      parentName: RT02:RT:MeshXiong_Joint25
+      position: {x: -0.020168494, y: 0.000000055134294, z: -0.000000006817063}
+      rotation: {x: -0.016099455, y: -0.026207622, z: -0.030403702, w: 0.9990644}
+      scale: {x: 0.9999995, y: 0.9999995, z: 1.0000006}
+    - name: RT02:RT:MeshXiong_Joint27
+      parentName: RT02:RT:MeshXiong_Joint26
+      position: {x: -0.01820551, y: 0.00000018641352, z: -0.000000011694992}
+      rotation: {x: -0.0000000017798495, y: -0.000000024167619, z: -0.0000000051222746, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: RT02:RT:MeshXiong_Joint27_end
+      parentName: RT02:RT:MeshXiong_Joint27
+      position: {x: -0, y: 0.018205564, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:RW
+      parentName: RT02:RT:Righthand_Joint
+      position: {x: -0.10130815, y: 0.008872243, z: -0.02168626}
+      rotation: {x: -0.00478625, y: -0.15683359, z: -0.014580428, w: 0.98750585}
+      scale: {x: 1, y: 1.0000001, z: 0.99999964}
+    - name: RT02:RT:MeshXiong_Joint28
+      parentName: RT02:RT:RW
+      position: {x: -0.031003444, y: 0.000000040689482, z: 0.000000018817737}
+      rotation: {x: -0.008080443, y: -0.028504536, z: 0.0075508542, w: 0.9995325}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1}
+    - name: RT02:RT:MeshXiong_Joint29
+      parentName: RT02:RT:MeshXiong_Joint28
+      position: {x: -0.023429729, y: 0.00000027440487, z: 0.0000000041904786}
+      rotation: {x: -0.0014229494, y: -0.005057009, z: -0.009496298, w: 0.9999411}
+      scale: {x: 1.0000001, y: 0.9999996, z: 1.0000006}
+    - name: RT02:RT:MeshXiong_Joint30
+      parentName: RT02:RT:MeshXiong_Joint29
+      position: {x: -0.02346153, y: 0.00000015899539, z: 0.000000008375209}
+      rotation: {x: 7.5666423e-10, y: -0.000000007655738, z: -0.000000047613874, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: RT02:RT:MeshXiong_Joint30_end
+      parentName: RT02:RT:MeshXiong_Joint30
+      position: {x: -0, y: 0.023461577, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:RZ
+      parentName: RT02:RT:Righthand_Joint
+      position: {x: -0.09540084, y: 0.01336822, z: -0.044353336}
+      rotation: {x: -0.021066956, y: -0.16697182, z: -0.0024579084, w: 0.9857335}
+      scale: {x: 1.0000008, y: 1, z: 1}
+    - name: RT02:RT:MeshXiong_Joint31
+      parentName: RT02:RT:RZ
+      position: {x: -0.035437226, y: 0.0000000519678, z: -0.0000000038332835}
+      rotation: {x: -0.0024105802, y: -0.0093865255, z: 0.040708322, w: 0.9991241}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.9999997}
+    - name: RT02:RT:MeshXiong_Joint32
+      parentName: RT02:RT:MeshXiong_Joint31
+      position: {x: -0.023579359, y: 8.9406965e-10, z: -0.00000001403816}
+      rotation: {x: 0.00045383236, y: 0.0014624138, z: 0.0088033965, w: 0.9999601}
+      scale: {x: 0.9999996, y: 1.0000001, z: 1.0000004}
+    - name: RT02:RT:MeshXiong_Joint33
+      parentName: RT02:RT:MeshXiong_Joint32
+      position: {x: -0.024312668, y: 0.0000001359731, z: -0.000000006432692}
+      rotation: {x: 0.0000000029162557, y: 0.0000000048038, z: 0.00000009848736, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:MeshXiong_Joint33_end
+      parentName: RT02:RT:MeshXiong_Joint33
+      position: {x: -0, y: 0.024312705, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:RS
+      parentName: RT02:RT:Righthand_Joint
+      position: {x: -0.08694735, y: 0.011959364, z: -0.06641783}
+      rotation: {x: -0.03625084, y: -0.21670517, z: 0.010530374, w: 0.97550696}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.9999997}
+    - name: RT02:RT:MeshXiong_Joint34
+      parentName: RT02:RT:RS
+      position: {x: -0.031646837, y: 0.00000031925737, z: -0.0000000059447847}
+      rotation: {x: 0.0025898118, y: 0.009780584, z: 0.008849084, w: 0.9999097}
+      scale: {x: 1.0000002, y: 1, z: 1.0000008}
+    - name: RT02:RT:MeshXiong_Joint35
+      parentName: RT02:RT:MeshXiong_Joint34
+      position: {x: -0.022870805, y: 0.00000009268522, z: -0.000000002748129}
+      rotation: {x: 0.0005251266, y: 0.00205864, z: -0.017956885, w: 0.9998365}
+      scale: {x: 0.99999946, y: 1, z: 0.9999993}
+    - name: RT02:RT:MeshXiong_Joint36
+      parentName: RT02:RT:MeshXiong_Joint35
+      position: {x: -0.019196581, y: 0.00000009071082, z: -0.000000005863112}
+      rotation: {x: -0.0000000015785311, y: 4.4831608e-10, z: 0.00000006242044, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:MeshXiong_Joint36_end
+      parentName: RT02:RT:MeshXiong_Joint36
+      position: {x: -0, y: 0.019196587, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:RD
+      parentName: RT02:RT:Righthand_Joint
+      position: {x: -0.021601412, y: -0.008430629, z: -0.045873523}
+      rotation: {x: -0.12835859, y: -0.51316, z: -0.058182914, w: 0.84664387}
+      scale: {x: 0.9999996, y: 0.9999995, z: 1.0000001}
+    - name: RT02:RT:MeshXiong_Joint37
+      parentName: RT02:RT:RD
+      position: {x: -0.039683793, y: 0.00000008106232, z: -0.00000006198883}
+      rotation: {x: 0.08611088, y: -0.006137796, z: 0.026258718, w: 0.9959206}
+      scale: {x: 1.0000006, y: 1.0000008, z: 0.99999964}
+    - name: RT02:RT:MeshXiong_Joint38
+      parentName: RT02:RT:MeshXiong_Joint37
+      position: {x: -0.025471186, y: 0.000000096559525, z: 0.0000000066364008}
+      rotation: {x: -0.0052227117, y: -0.017094838, z: 0.009920573, w: 0.999791}
+      scale: {x: 1.0000005, y: 1, z: 1.0000006}
+    - name: RT02:RT:MeshXiong_Joint39
+      parentName: RT02:RT:MeshXiong_Joint38
+      position: {x: -0.02668654, y: 0.00000009775162, z: 0.00000001769542}
+      rotation: {x: 0.00000002278226, y: 0.00000002230039, z: -0.00000008754432, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RT02:RT:MeshXiong_Joint39_end
+      parentName: RT02:RT:MeshXiong_Joint39
+      position: {x: -0, y: 0.026686523, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck.ring.metal
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: -7.134484e-17, y: 0.0000001001358, z: 0.000000009536758}
+      rotation: {x: 0.00000008146034, y: -1.0339759e-24, z: 1.6543611e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck.ring.space
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: -7.134484e-17, y: 0.0000001001358, z: 0.000000009536758}
+      rotation: {x: 0.00000008146034, y: -1.0339759e-24, z: 1.6543611e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoes.L.space
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 0.0000000020861626, y: 0.0000000029363119, z: 0.000000005364418}
+      rotation: {x: 0.00000008146035, y: 1.11022296e-16, z: -2.220446e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoes.R.space
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: -0.000000002682209, y: -0.0000000021575033, z: 0.0000000017881389}
+      rotation: {x: 0.00000007400977, y: -6.8950254e-25, z: 9.313223e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skin
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: 0.000000019073486, y: 0.000000019457554, z: -0.0000000095367385}
+      rotation: {x: 0.00000008518563, y: 0.000000015832484, z: 2.3037128e-15, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: trousers.gem
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: -6.9694685e-17, y: -0.000000008046626, z: 0.0000000023841842}
+      rotation: {x: 0.00000008146034, y: 1.292495e-26, z: -1.6543612e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: trousers.metal
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: -6.9694685e-17, y: -0.000000008046626, z: 0.0000000023841842}
+      rotation: {x: 0.00000008146034, y: 1.292495e-26, z: -1.6543612e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: trousers.space
+      parentName: space.2021.12.29_1(Clone)
+      position: {x: -6.9694685e-17, y: -0.000000008046626, z: 0.0000000023841842}
+      rotation: {x: 0.00000008146034, y: 1.292495e-26, z: -1.6543612e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 0
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

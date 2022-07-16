@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+let create = function (a) {
+    let re = new csharp_1.LongSkil_Delegate();
+    let s = function () {
+        // eve.SetUP(re.unit,re.player);
+        // eve.SetSpace(re.unit,Pack.UnitSpace.Space);
+        return csharp_1.SNResult.ToNext;
+    };
+    re.fixStart.AddFunc(s);
+    let f = function () {
+        let to = re.TarUnit();
+        console.log(to);
+        csharp_1.eve.DestoryUnit(to);
+        return csharp_1.SNResult.ToNext;
+    };
+    re.fix.AddFunc(f);
+    return re;
+};

@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+const FullName_1 = require("FullName");
+let s1 = function () {
+    let re = csharp_1.eve.CreatSkill(FullName_1.fullN.Skill.UseMagicCard).Origin();
+    re.testNodeUseful.AddFunc((s, node) => {
+        if (node.NodeKind != 1)
+            return;
+        if (node.GetUnit())
+            return;
+        re.testNodeUseful.re(false);
+    });
+    csharp_1.eveInputSkill.EnableReach(re, 6);
+    csharp_1.eveInputSkill.EnableNewSkill(re, FullName_1.fullN.Skill.S_floatUnit, csharp_1.SkillListKind.Long);
+    return re;
+};
+let create = function (a) {
+    let re = csharp_1.eveTS.NewUnitTemplate_ReName(FullName_1.fullN.Unit.___, FullName_1.fullN.Unit.__FloatUnit);
+    re.ActOnSetID_Awake.AddAct(() => {
+        csharp_1.eve.AddSkill(re, s1(), csharp_1.SkillKind.Input, 0);
+    });
+    console.log(re);
+    return re;
+};

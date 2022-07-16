@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+const FullName_1 = require("FullName");
+let create = function (a) {
+    let re = csharp_1.eveTS.NewUnitTemplate_ReName(FullName_1.fullN.Unit.___, FullName_1.fullN.Unit.__OnCallReduceFee);
+    let intit = re.GetComponent("TsInit");
+    intit.AddStartInitAction(() => {
+        re.AddMesh(FullName_1.fullN.Mesh.M_SpeedUpMesh);
+        let use = csharp_1.eve.CreatSkill(FullName_1.fullN.Skill.ThrowMagic).Origin();
+        csharp_1.eve.AddSkill(re, use, csharp_1.SkillKind.Input, 0);
+        let S_ReduceFee = csharp_1.eve.CreatSkill(FullName_1.fullN.Skill.S_ReduceFee).Origin();
+        csharp_1.eve.AddSkill(re, S_ReduceFee, csharp_1.SkillKind.TriggerSkill, 0);
+    });
+    return re;
+};

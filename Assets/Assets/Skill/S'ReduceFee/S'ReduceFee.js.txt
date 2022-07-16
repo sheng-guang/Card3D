@@ -1,0 +1,58 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+const FullName_1 = require("FullName");
+let newBuff = function () {
+    let re = new csharp_1.Buff_Delegate();
+    let toReduce = 0;
+    re.A_setKV.AddAct((b, key, arg) => {
+        if (key == csharp_1.nn.BuffUpgrade) {
+            toReduce++;
+        }
+    });
+    re.A_Apply.AddAct((b) => {
+        let lastCous = re.Up.unit.ManaCost.Value_Buffed.Value;
+        re.Up.unit.ManaCost.SetValueBuffed(lastCous - toReduce);
+    });
+    return re;
+};
+let create = function () {
+    let re = new csharp_1.TriggerSkill_Delegate();
+    re.onCall.AddAct((skil, c) => {
+        if (c.Kind != csharp_1.CallKind.OnSummon)
+            return;
+        c.AddReactionAct(() => {
+            var stackSkill = csharp_1.eve.CreatSkill(FullName_1.fullN.Skill.S_StackPause_).Origin();
+            csharp_1.eve.SetSkillImageName(stackSkill, FullName_1.fullN.Skill.S_ReduceFee);
+            stackSkill.runToBreak.AddFunc(() => {
+                let key = re.ID + "|" + re.FullName;
+                let to = csharp_1.eve.GetBuff(re.unit, key);
+                if (to == null) {
+                    to = newBuff();
+                    csharp_1.eve.AddBuff(re.unit, to, key);
+                    csharp_1.eve.WillApplyToData(to, to.Up.unit.ManaCost);
+                }
+                to.SetKV(csharp_1.nn.BuffUpgrade, null);
+                csharp_1.eve.AddNeedFreshData(re.unit.ManaCost);
+                return csharp_1.SNResult.Exit;
+            });
+            csharp_1.eve.SetSkillUp(stackSkill, re.unit);
+            csharp_1.eve.AddToStackSkillList(stackSkill);
+        });
+    });
+    // let re=new BuffSkill_Delegate();
+    // re.A_OnSetID_LoadStructure.AddAct((x)=>{
+    //     re.unit.Event.SpaceCall.Listen(()=>{
+    //         if(eve.IsSpace(re.unit,UnitSpace.Space)){
+    //             BuffSysData.ListenDataChange(re,BuffSys.FreshVersionMonitor);
+    //         }
+    //         else{
+    //             BuffSysData.CancelListene(re,BuffSys.FreshVersionMonitor);
+    //         }
+    //     })
+    // })
+    // re.A_FreshActive.AddAct((b)=>{
+    //     console.log("fresh active");
+    // })
+    return re;
+};

@@ -1,0 +1,19 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+const FullName_1 = require("FullName");
+// import { $generic } from "puerts";
+// let T_int = $generic(T$1, System.Int32);
+let createSkill = function () {
+    let re = csharp_1.eve.CreatSkill(FullName_1.fullN.Skill.InputSkill_Delegate).Origin();
+    csharp_1.eveInputSkill.EnableOneTargetMode(re);
+    csharp_1.eveInputSkill.EnableNewSkill(re, FullName_1.fullN.Skill.S_flash, csharp_1.SkillListKind.Long);
+    return re;
+};
+let create = function (a) {
+    let re = csharp_1.eveTS.NewUnitTemplate_ReName(FullName_1.fullN.Unit.___, FullName_1.fullN.Unit.__Flash);
+    re.ActOnSetID_Awake.AddAct((u) => {
+        csharp_1.eve.AddSkill(re, createSkill(), csharp_1.SkillKind.Input, 0);
+    });
+    return re;
+};

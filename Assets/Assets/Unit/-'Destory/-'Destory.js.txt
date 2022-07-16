@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+const FullName_1 = require("FullName");
+let s0 = function () {
+    let re = csharp_1.eve.CreatSkill(FullName_1.fullN.Skill.InputSkill_Delegate).Origin();
+    csharp_1.eveInputSkill.EnableOneTargetMode(re);
+    csharp_1.eveInputSkill.EnableReach(re, 10);
+    csharp_1.eveInputSkill.EnableNewSkill(re, FullName_1.fullN.Skill.S_Destroy, csharp_1.SkillListKind.Long);
+    return re;
+};
+let create = function (a) {
+    let re = csharp_1.eveTS.NewUnitTemplate_ReName(FullName_1.fullN.Unit.___, FullName_1.fullN.Unit.__Destory);
+    re.ActOnSetID_Awake.AddAct((x) => {
+        csharp_1.eve.AddSkill(re, s0(), csharp_1.SkillKind.Input, 0);
+    });
+    return re;
+};
+// let init=function(u:VarUnit){
+//     let s=Layer.CreatSkill("UseMagicCard").Origin()
+//     u.AddSkill(s,SkillKind.Input,0)
+//     s.Var(nn.Reach,6)
+//     s.Var(nn.SkillName,"S'Destroy")
+//     s.VarInt32(nn.SkillListKind,SkillListKind.Long)
+// }

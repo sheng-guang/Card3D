@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+const FullName_1 = require("FullName");
+let s0 = function () {
+    let re = csharp_1.eve.CreatSkill(FullName_1.fullN.Skill.InputSkill_Delegate).Origin();
+    csharp_1.eveInputSkill.EnableOneTargetMode(re);
+    csharp_1.eveInputSkill.EnableNewSkill(re, FullName_1.fullN.Skill.S_Silence, csharp_1.SkillListKind.Stack);
+    re.testNodeUseful.AddFunc((s, node) => {
+        if (node.NodeKind != 1)
+            return;
+        if (csharp_1.eve.IsSpaceInSpace(node.GetUnit()) == false) {
+            re.testNodeUseful.re(false);
+        }
+    });
+    return re;
+};
+let create = function (a) {
+    let re = csharp_1.eveTS.NewUnitTemplate_ReName(FullName_1.fullN.Unit.___, FullName_1.fullN.Unit.__Silence);
+    re.ActOnSetID_Awake.AddAct((x) => {
+        csharp_1.eve.AddSkill(re, s0(), csharp_1.SkillKind.Input, 0);
+    });
+    return re;
+};

@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 33f3b55e6ad966346a93a3ce2f01c52c
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Mesh_Joint
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftBleg_Kuan
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightBleg_Kuan
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: F:RT02:LeftSleg_Xigai
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightSleg_Xigai
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot_Jiaohuai
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Jiaohuai
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MeshYao_Joint
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bozi_Joint
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: F:RT02:TouD_Joint
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftXiong_Joint
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightXiong_Joint
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftBhand_Joint
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightBhand_Joint
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftShand_Joint
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightShand_Joint
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lefthand_Joint
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Righthand_Joint
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot_Jiaozhi
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightFoot_Jiaozhi
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MeshXiong_Joint
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: gUG(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joints
+      parentName: gUG(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_Joint
+      parentName: Joints
+      position: {x: 0.000012135809, y: 1.0027307, z: 0.02220075}
+      rotation: {x: -0.0034186353, y: -0.009762625, z: 0.33048058, w: 0.9437561}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftBleg_Kuan
+      parentName: Mesh_Joint
+      position: {x: -0.11896813, y: 1.4210854e-16, z: 4.440892e-18}
+      rotation: {x: 0.59741896, y: 0.29810074, z: 0.34887296, w: 0.6576581}
+      scale: {x: 1, y: 1, z: 1}
+    - name: F:RT02:LeftSleg_Xigai
+      parentName: LeftBleg_Kuan
+      position: {x: -0.35880142, y: 9.8254737e-17, z: 2.3092638e-16}
+      rotation: {x: 0.03616408, y: -0.028131815, z: 0.013696232, w: 0.99885595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFoot_Jiaohuai
+      parentName: F:RT02:LeftSleg_Xigai
+      position: {x: -0.47003344, y: 6.217249e-17, z: -6.217249e-17}
+      rotation: {x: -0.026154207, y: -0.015011774, z: -0.5454284, w: 0.8376148}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFoot_Jiaozhi
+      parentName: LeftFoot_Jiaohuai
+      position: {x: -0.10417204, y: -0.040006492, z: 0.0007787065}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFoot_JiaojianJoint
+      parentName: LeftFoot_Jiaozhi
+      position: {x: -0.07012948, y: 0.025507096, z: 0.0092636235}
+      rotation: {x: -0.15572475, y: -0.6467877, z: -0.1747628, w: 0.7258605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MeshYao_Joint
+      parentName: Mesh_Joint
+      position: {x: 0.09694022, y: 0.120911464, z: 0.016039446}
+      rotation: {x: -0.29806682, y: 0.64922994, z: -0.6249118, w: 0.31486812}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MeshXiong_Joint
+      parentName: MeshYao_Joint
+      position: {x: -0.16685367, y: 2.664535e-16, z: 1.3301209e-16}
+      rotation: {x: -0.045120366, y: 0.004414545, z: 0.072755225, w: 0.99631894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftXiong_Joint
+      parentName: MeshXiong_Joint
+      position: {x: -0.08984385, y: 0.0820217, z: -0.06882437}
+      rotation: {x: 0.48166567, y: -0.5778944, z: 0.42126665, w: 0.5065282}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftBhand_Joint
+      parentName: LeftXiong_Joint
+      position: {x: -0.042317424, y: 2.842171e-16, z: -1.3944401e-15}
+      rotation: {x: 0.0018303986, y: 0.03397008, z: 0.038874574, w: 0.99866486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftShand_Joint
+      parentName: LeftBhand_Joint
+      position: {x: -0.25600782, y: -1.08002494e-14, z: -2.8865798e-17}
+      rotation: {x: 0.6454833, y: 0.004346081, z: -0.033963073, w: 0.76300645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lefthand_Joint
+      parentName: LeftShand_Joint
+      position: {x: -0.22744095, y: 0.00000065751374, z: 0.0000050999224}
+      rotation: {x: -0.71767616, y: -0.07453789, z: 0.0053537334, w: 0.6923556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LX
+      parentName: Lefthand_Joint
+      position: {x: -0.099203765, y: -5.1159075e-15, z: -4.2632563e-16}
+      rotation: {x: 0.0032170457, y: 0.012753804, z: 0.0945655, w: 0.9954318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LX01
+      parentName: LX
+      position: {x: -0.025069965, y: 8.526512e-15, z: 1.7763567e-16}
+      rotation: {x: 0.0013551578, y: 0.003519953, z: 0.025696935, w: 0.9996627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LX02
+      parentName: LX01
+      position: {x: -0.020167371, y: -4.8316907e-15, z: 0}
+      rotation: {x: 0.01607159, y: 0.045348708, z: -0.05252822, w: 0.9974598}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LX03
+      parentName: LX02
+      position: {x: -0.0182054, y: -5.684342e-16, z: -3.907985e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LW
+      parentName: Lefthand_Joint
+      position: {x: -0.10130755, y: 0.008881526, z: 0.021686062}
+      rotation: {x: 0.015083636, y: 0.0705819, z: 0.05798026, w: 0.9957053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LW01
+      parentName: LW
+      position: {x: -0.031004144, y: -6.536993e-15, z: 2.1316282e-16}
+      rotation: {x: 0.008082601, y: 0.028502233, z: 0.00761812, w: 0.99953204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LW02
+      parentName: LW01
+      position: {x: -0.023430761, y: -6.82121e-15, z: -1.7763567e-16}
+      rotation: {x: 0.0014226564, y: 0.005056141, z: -0.009664099, w: 0.9999395}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LW03
+      parentName: LW02
+      position: {x: -0.02346026, y: 5.968559e-15, z: 4.796163e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LZ
+      parentName: Lefthand_Joint
+      position: {x: -0.095399894, y: 0.013377486, z: 0.044353154}
+      rotation: {x: 0.026404535, y: 0.14376193, z: 0.02895301, w: 0.9888362}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LZ01
+      parentName: LZ
+      position: {x: -0.035439227, y: 1.0516033e-14, z: -1.4210854e-16}
+      rotation: {x: 0.0024103655, y: 0.009386409, z: 0.040433485, w: 0.99913526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LZ02
+      parentName: LZ01
+      position: {x: -0.02357709, y: -1.5347722e-14, z: 2.5757173e-16}
+      rotation: {x: -0.00045399924, y: -0.001463803, z: 0.008934493, w: 0.99995893}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LZ03
+      parentName: LZ02
+      position: {x: -0.024312235, y: 1.7053025e-14, z: 4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LS
+      parentName: Lefthand_Joint
+      position: {x: -0.086946964, y: 0.011965348, z: 0.06641768}
+      rotation: {x: 0.044440996, y: 0.2178035, z: 0.047663692, w: 0.9738146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LS01
+      parentName: LS
+      position: {x: -0.031647988, y: 1.1368684e-15, z: 1.9650947e-16}
+      rotation: {x: -0.0025901517, y: -0.009779732, z: 0.008718928, w: 0.99991083}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LS02
+      parentName: LS01
+      position: {x: -0.022870315, y: 3.410605e-15, z: -2.1316282e-16}
+      rotation: {x: -0.0005242938, y: -0.0020569807, z: -0.01805193, w: 0.99983484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LS03
+      parentName: LS02
+      position: {x: -0.019195173, y: -3.126388e-15, z: 2.6201262e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LD
+      parentName: Lefthand_Joint
+      position: {x: -0.021601945, y: -0.008426647, z: 0.04587348}
+      rotation: {x: 0.85997933, y: -0.004862962, z: -0.4854798, w: -0.15722992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LD01
+      parentName: LD
+      position: {x: -0.039683986, y: -5.4001247e-15, z: 1.9184653e-15}
+      rotation: {x: 0.0010167807, y: -0.008411902, z: -0.025693726, w: 0.99963397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LD02
+      parentName: LD01
+      position: {x: -0.025472624, y: 4.8316907e-15, z: -1.2789769e-15}
+      rotation: {x: 0.005222908, y: -0.01853186, z: -0.0066568283, w: 0.99979246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LD03
+      parentName: LD02
+      position: {x: -0.026685245, y: -1.9895197e-15, z: -1.065814e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bozi_Joint
+      parentName: MeshXiong_Joint
+      position: {x: -0.1341832, y: 0.0974381, z: 0.006663988}
+      rotation: {x: 0.044902243, y: -0.006254944, z: -0.03197447, w: 0.99846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: F:RT02:TouD_Joint
+      parentName: Bozi_Joint
+      position: {x: -0.052570574, y: 8.171241e-16, z: 1.224563e-16}
+      rotation: {x: 0, y: -0, z: -0.015406548, w: 0.9998813}
+      scale: {x: 1, y: 1, z: 1}
+    - name: F:RT02:TouDing_Joint
+      parentName: F:RT02:TouD_Joint
+      position: {x: -0.21316838, y: 6.5725204e-16, z: 3.5349325e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint4
+      parentName: F:RT02:TouD_Joint
+      position: {x: -0.1616704, y: 0.11029571, z: 0.00023571696}
+      rotation: {x: 0.4777115, y: -0.5213365, z: 0.4777115, w: 0.5213365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint5
+      parentName: joint4
+      position: {x: -8.977334e-17, y: 0.0041632005, z: -0.07967275}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint6
+      parentName: joint5
+      position: {x: -1.0786892e-16, y: -0.05904184, z: -0.044467553}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint7
+      parentName: joint6
+      position: {x: -3.963131e-17, y: -0.11160297, z: 0.001121603}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint8
+      parentName: joint7
+      position: {x: -1.8989849e-16, y: -0.1125238, z: 0.036050554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint12
+      parentName: joint8
+      position: {x: -0.00024785387, y: -0.08916744, z: -0.011156208}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint13
+      parentName: joint12
+      position: {x: -0, y: -0.10507909, z: -0.06590487}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint1
+      parentName: F:RT02:TouD_Joint
+      position: {x: -0.17695068, y: -0.04567388, z: -0.071531974}
+      rotation: {x: 0.4777115, y: -0.5213365, z: 0.4777115, w: 0.5213365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint2
+      parentName: joint1
+      position: {x: -0.018500136, y: -0.08518619, z: -0.005606375}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint3
+      parentName: joint2
+      position: {x: 0.028739829, y: -0.12502949, z: 0.01121275}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint9
+      parentName: F:RT02:TouD_Joint
+      position: {x: -0.17694725, y: -0.045674153, z: 0.07153196}
+      rotation: {x: 0.5213365, y: 0.4777115, z: 0.5213365, w: -0.4777115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint10
+      parentName: joint9
+      position: {x: 0.0185002, y: 0.08517999, z: 0.0056063}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint11
+      parentName: joint10
+      position: {x: -0.0287399, y: 0.12503, z: -0.011212699}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightXiong_Joint
+      parentName: MeshXiong_Joint
+      position: {x: -0.09213686, y: 0.06872494, z: 0.07952938}
+      rotation: {x: 0.53013265, y: 0.44094136, z: 0.5563201, w: -0.46372196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightBhand_Joint
+      parentName: RightXiong_Joint
+      position: {x: 0.04231744, y: 0, z: -0.0000000014255177}
+      rotation: {x: 0.0018646116, y: 0.03296391, z: 0.03829532, w: 0.99872094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightShand_Joint
+      parentName: RightBhand_Joint
+      position: {x: 0.25600854, y: 0.0000075050425, z: -0.000000030656206}
+      rotation: {x: 0.6454865, y: 0.003228388, z: -0.033136714, w: 0.7630457}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Righthand_Joint
+      parentName: RightShand_Joint
+      position: {x: 0.227435, y: -0.00000003259629, z: 0.00000051409006}
+      rotation: {x: -0.715729, y: -0.104585044, z: 0.02608213, w: 0.69000995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RX
+      parentName: Righthand_Joint
+      position: {x: 0.09920229, y: -0.000005040084, z: -0.000000052517308}
+      rotation: {x: 0.0032170457, y: 0.012753804, z: 0.0945655, w: 0.9954318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RX01
+      parentName: RX
+      position: {x: 0.025069656, y: -0.00000061325494, z: -0.000000014934463}
+      rotation: {x: 0.0013551578, y: 0.003519953, z: 0.025696935, w: 0.9996627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RX02
+      parentName: RX01
+      position: {x: 0.020169048, y: 0.0000027644483, z: 0.00000006465789}
+      rotation: {x: 0.01607159, y: 0.045348708, z: -0.05252822, w: 0.9974598}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RX03
+      parentName: RX02
+      position: {x: 0.01820593, y: 0.0000018481971, z: 0.00000007088469}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RW
+      parentName: Righthand_Joint
+      position: {x: 0.10130676, y: -0.008886043, z: -0.021686183}
+      rotation: {x: 0.015083636, y: 0.0705819, z: 0.05798026, w: 0.9957053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RW01
+      parentName: RW
+      position: {x: 0.031004084, y: 0.0000021894004, z: 0.00000011440782}
+      rotation: {x: 0.008082601, y: 0.028502233, z: 0.00761812, w: 0.99953204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RW02
+      parentName: RW01
+      position: {x: 0.023432592, y: 0.0000033288181, z: 0.00000010072356}
+      rotation: {x: 0.0014226564, y: 0.005056141, z: -0.009664099, w: 0.9999395}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RW03
+      parentName: RW02
+      position: {x: 0.023457263, y: -0.000007797411, z: -0.00000028117412}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RZ
+      parentName: Righthand_Joint
+      position: {x: 0.09539911, y: -0.01338001, z: -0.04435318}
+      rotation: {x: 0.026404535, y: 0.14376193, z: 0.02895301, w: 0.9888362}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RZ01
+      parentName: RZ
+      position: {x: 0.0354385, y: -0.000002102493, z: -0.00000007791751}
+      rotation: {x: 0.0024103655, y: 0.009386409, z: 0.040433485, w: 0.99913526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RZ02
+      parentName: RZ01
+      position: {x: 0.023577837, y: 0.000000017619818, z: 0.00000012876373}
+      rotation: {x: -0.00045399924, y: -0.001463803, z: 0.008934493, w: 0.99995893}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RZ03
+      parentName: RZ02
+      position: {x: 0.024312278, y: 0.0000007488855, z: -0.000000003753725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RS
+      parentName: Righthand_Joint
+      position: {x: 0.086945504, y: -0.011972515, z: -0.06641784}
+      rotation: {x: 0.044440996, y: 0.2178035, z: 0.047663692, w: 0.9738146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RS01
+      parentName: RS
+      position: {x: 0.03164971, y: 0.00000670318, z: 0.00000020425313}
+      rotation: {x: -0.0025901517, y: -0.009779732, z: 0.008718928, w: 0.99991083}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RS02
+      parentName: RS01
+      position: {x: 0.022870213, y: -0.0000009596647, z: 0.000000010295651}
+      rotation: {x: -0.0005242938, y: -0.0020569807, z: -0.01805193, w: 0.99983484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RS03
+      parentName: RS02
+      position: {x: 0.019193377, y: -0.0000055506525, z: -0.0000003284786}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RD
+      parentName: Righthand_Joint
+      position: {x: 0.021600313, y: 0.008420508, z: -0.045873545}
+      rotation: {x: 0.8599219, y: -0.0048595364, z: -0.48558518, w: -0.1572188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RD01
+      parentName: RD
+      position: {x: 0.039684746, y: -0.0000015630677, z: -0.00000013691631}
+      rotation: {x: 0.0010167807, y: -0.008411902, z: -0.025693726, w: 0.99963397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RD02
+      parentName: RD01
+      position: {x: 0.025472572, y: -0.000000031982566, z: 0.00000052751005}
+      rotation: {x: 0.005222908, y: -0.01853186, z: -0.0066568283, w: 0.99979246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RD03
+      parentName: RD02
+      position: {x: 0.02668377, y: 0.000002504994, z: -0.000000692278}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightBleg_Kuan
+      parentName: Mesh_Joint
+      position: {x: 0.028296355, y: -0.11735702, z: -0.0048771054}
+      rotation: {x: -0.30244523, y: 0.6951532, z: -0.59194535, w: 0.27365977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightSleg_Xigai
+      parentName: RightBleg_Kuan
+      position: {x: 0.3588008, y: -0.000000007027571, z: 0.000000020983983}
+      rotation: {x: 0.03616408, y: -0.028131815, z: 0.013696232, w: 0.99885595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Jiaohuai
+      parentName: RightSleg_Xigai
+      position: {x: 0.47003338, y: 0.000000011453149, z: -0.000000030722674}
+      rotation: {x: -0.026154207, y: -0.015011774, z: -0.5454284, w: 0.8376148}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFoot_Jiaozhi
+      parentName: Right_Jiaohuai
+      position: {x: 0.10417224, y: 0.0400069, z: -0.0007787092}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFoot_JiaojianJoint
+      parentName: RightFoot_Jiaozhi
+      position: {x: 0.070129685, y: -0.025507154, z: -0.009263679}
+      rotation: {x: -0.15572475, y: -0.6467877, z: -0.1747628, w: 0.7258605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh
+      parentName: gUG(Clone)
+      position: {x: -0, y: 0.87559843, z: -0.06739474}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair
+      parentName: Mesh
+      position: {x: -0, y: -0.87559843, z: 0.06739474}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cloth
+      parentName: Mesh
+      position: {x: -0, y: -0.87559843, z: 0.06739474}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: Mesh
+      position: {x: -0, y: -0.87559843, z: 0.06739474}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Joints
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

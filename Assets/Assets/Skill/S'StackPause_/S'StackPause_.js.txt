@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+let create = function (a) {
+    let re = new csharp_1.StackSkill_Delegate();
+    re.stackStart.AddFunc(() => {
+        csharp_1.eve.PauseSkillForPlayer(re, re.player.ID);
+        return csharp_1.SNResult.ToNext;
+    });
+    re.runToBreak.AddFunc(() => {
+        return csharp_1.eve.SN_TestPause(re);
+    });
+    return re;
+};

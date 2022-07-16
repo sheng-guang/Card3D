@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732a741c320981d4c9fbd66412fd16b0, type: 3}
+  m_Name: PrefabList
+  m_EditorClassIdentifier: 
+  UseAB: 0
+  list:
+  - preName: -'ChangeVToUp
+    pre: {fileID: 5421661186171751851, guid: fb73aed3d80249842a2624d8cb15052f, type: 3}
+  - preName: Pre'Line
+    pre: {fileID: 2620562958042126168, guid: a9c93a5669f8fa9419dcc173497274dc, type: 3}
+  - preName: -'Host1
+    pre: {fileID: 4995515833770463741, guid: e28ea9f830689c0448586ad2c655d6bb, type: 3}
+  - preName: -'AirDropWall
+    pre: {fileID: 8846632916385356594, guid: d9571983279bfed4490db0dbfc23f1cb, type: 3}
+  - preName: -'Wall
+    pre: {fileID: 7953539728383687471, guid: 20b1fbdc2ffaec14db72d61221aedee8, type: 3}
+  - preName: -'ComHost1UI
+    pre: {fileID: 739861720384377958, guid: 8a27312c7973cb94abba7dad7a8b4085, type: 3}
+  - preName: -'CompPlayerUnitController
+    pre: {fileID: 730661243324446730, guid: 3a052ba2cfb47ac408a5e63eebece028, type: 3}
+  - preName: M'UseFireBallEffect
+    pre: {fileID: 3535383376124252445, guid: f797031572717684585d0544a730bbc7, type: 3}
+  - preName: Assets/Mesh/M'UseFireBallEffect_|eff
+    pre: {fileID: 2453957632686968694, guid: a9169b242236fe44e9f8fa74b785a469, type: 3}
+  - preName: -'SpaceTrigger
+    pre: {fileID: 781445197056846329, guid: caf809ad54163d34b93e9e92d91dc45d, type: 3}
+  - preName: Assets/Mesh/M'HumanMesh_|meshRoot
+    pre: {fileID: 4534467993337118903, guid: 3c2a58326771d9a40bff5654f42d0b73, type: 3}
+  - preName: M'SpeedUpMesh
+    pre: {fileID: 3254837219341853303, guid: e44fc30dacb086e41a49e585feae8d6a, type: 3}
+  - preName: -'DrawCard
+    pre: {fileID: 2316495328005768861, guid: da48a4712d5d363458f0c8d094dccf95, type: 3}
+  - preName: -'CompChooseUnit
+    pre: {fileID: 5731742277487761301, guid: 2b7bc235a418ba94e8bc671434d432ee, type: 3}
+  - preName: -'Hero1
+    pre: {fileID: 1602381151681186133, guid: 52030a033e93a6243b01333358e3f38f, type: 3}
+  - preName: M'VFX_Area
+    pre: {fileID: 5066827706723659615, guid: 63e840c6f9ddd534da504f9782828566, type: 3}
+  - preName: -'CardMesh
+    pre: {fileID: 168064119265367116, guid: 904cacd2efd472740ac59fcfb0549631, type: 3}
+  - preName: -'FireBall
+    pre: {fileID: 5132958903806393307, guid: 386571f9d1e847f4489797ebc8a2e851, type: 3}
+  - preName: -'SendBack
+    pre: {fileID: 8221630618760198986, guid: 404bd150d3036554abead26f8b62deb2, type: 3}
+  - preName: -'EnemyTarget
+    pre: {fileID: 8958900349626201959, guid: 0e5c281b5bc0da64bb28bce591fed1fa, type: 3}
+  - preName: Pre'Reach
+    pre: {fileID: 8924169581869923981, guid: f7a5e744972bb734c80b95cb8c077c47, type: 3}
+  - preName: Pre'ThrowLine
+    pre: {fileID: 7946798511333587149, guid: 711b440b9cea0f64fb34afda18e9afa0, type: 3}
+  - preName: Pre'Point
+    pre: {fileID: 6699869256411111463, guid: 685a71882dfb9594e8692e56e6651017, type: 3}
+  - preName: -'ComUnit3DUI
+    pre: {fileID: 828014725921046629, guid: e754354eb59904e439e38e2733429b70, type: 3}
+  - preName: M'HumanMesh
+    pre: {fileID: 5533920915946217317, guid: f3596966dc1539442bc33db03143ae27, type: 3}
+  - preName: Assets/Mesh/M'HumanMesh/M'HumanMesh_|meshRoot
+    pre: {fileID: 4534467993337118903, guid: 3c2a58326771d9a40bff5654f42d0b73, type: 3}
+  - preName: M'HumanMesh_2D
+    pre: {fileID: 8496950789202328253, guid: e96926e7215f59d4aa9211d350e14036, type: 3}
+  - preName: Assets/Mesh/M'HumanMesh_2D/M'HumanMesh_2D_|meshRoot_2D
+    pre: {fileID: 8111244904691093169, guid: c2cea6372ebb8064aa6a6dfbb4c553e6, type: 3}
+  - preName: -'CancelSkill
+    pre: {fileID: 5963582407499743778, guid: 4731701d546ed714a8701aac08bc7ee4, type: 3}
+  - preName: -'OnSummon
+    pre: {fileID: 6948174404012338307, guid: 491eb1b5e43d60445b395c41f72f5753, type: 3}
+  - preName: -'-
+    pre: {fileID: 7767881347705077009, guid: 6c1f7ac76d2a29741ac1a13d89edd31f, type: 3}
+  - preName: M'FireBall_Mesh
+    pre: {fileID: 2472387488640525441, guid: b6ce29688fb9c864499e6214ee0fc914, type: 3}
+  - preName: Assets/Mesh/M'FireBall_Mesh/M'FireBall_Mesh_|FireBall_Mesh_
+    pre: {fileID: 6592397760859518293, guid: 1c7bb5df1bee4ad49876b9206e5fccbf, type: 3}
+  - preName: -'StackSkillComp
+    pre: {fileID: 5562313341568105918, guid: 8f785c3b235a7ea478a15b27cf0995c1, type: 3}
+  - preName: Space'StackSkillSpace
+    pre: {fileID: 4121737680902405146, guid: 805ca3d114eb09d40804784f8aea765c, type: 3}
+  - preName: Space'LongSkillSpace
+    pre: {fileID: 6521782550185254191, guid: 2a8b82a9e6dd644458f18efb4c2f3925, type: 3}
+  - preName: -'LongSkillComp
+    pre: {fileID: 6191921416256119469, guid: ef2b5edc95da88c4898c43d01ba443bc, type: 3}
+  - preName: -'Player1'Def
+    pre: {fileID: 7623437718519285933, guid: db3df18471f8742519fac8f52cc7e2a1, type: 3}
+  - preName: M'Hero1'Def
+    pre: {fileID: 3413904108144206798, guid: b5d7c332e582546c0a9ace1cb594d959, type: 3}
+  - preName: Assets/Mesh/M'Hero1'Def/M'Hero1'Def_|Hero1Toon
+    pre: {fileID: 6280921635331526862, guid: c4f37a1dae759461f8a3345549b0ac88, type: 3}
+  - preName: -'LongSkillComp'Def
+    pre: {fileID: 8667407371462549492, guid: 495c383a7be1944afab89c2e97c30e6a, type: 3}
+  - preName: -'StackSkillComp'Def
+    pre: {fileID: 4155398303969451188, guid: d32c41e799f2447f6b89149e479f92d1, type: 3}
+  - preName: -'CardMesh'Def
+    pre: {fileID: 1430858906944911883, guid: f7efa8708bd3c480a94ae4ea28fef4d5, type: 3}

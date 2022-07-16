@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+let init = function (u) {
+    {
+        let p = csharp_1.Layer.CreatSkill("ThrowMagic").Origin();
+        u.AddSkill(p, csharp_1.SkillKind.Input, 0);
+    }
+    {
+        let a = u.AddMesh("M'VFX_Area");
+        a.ExTrySetExtension(csharp_1.nn.R, 3);
+    }
+    {
+        u.AddMesh("M'SpeedUpMesh");
+    }
+    {
+        let buff = csharp_1.Layer.CreatSkill("Skill_Buff_SpeedUpArea").Origin();
+        u.AddSkill(buff, 0);
+    }
+};

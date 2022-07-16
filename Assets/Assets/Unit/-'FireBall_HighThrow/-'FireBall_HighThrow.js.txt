@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+const FullName_1 = require("FullName");
+let s1 = function () {
+    let s = csharp_1.eve.CreatSkill(FullName_1.fullN.Skill.ThrowMagic).Origin();
+    csharp_1.eveInputSkill.SetThrowLine(s, true);
+    return s;
+};
+let s2 = function () {
+    let s = csharp_1.eve.CreatSkill(FullName_1.fullN.Skill.Skill_FireBallDamage).Origin();
+    return s;
+};
+let create = function (a) {
+    let re = csharp_1.eveTS.NewUnitTemplate_ReName(FullName_1.fullN.Unit.___, FullName_1.fullN.Unit.__FireBall_HighThrow);
+    re.ActOnSetID_Awake.AddAct((u) => {
+        csharp_1.eve.AddSkill(re, s1(), csharp_1.SkillKind.Input, 0);
+        csharp_1.eve.AddSkill(re, s2(), csharp_1.SkillKind.becall);
+        re.AddMesh(FullName_1.fullN.Mesh.M_FireBall_Mesh);
+    });
+    return re;
+};

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Def_toon_Metal
+  m_Shader: {fileID: 4800000, guid: 8d4bb3347cc86403a80b7835e30eb33e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _colortexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ASEOutlineWidth: 0.002
+    - _HighLightPower: 18.1
+    - _HighLighttimes: 4.1
+    - _RimOffset: 0.49
+    - _RimPower: 0.5
+    - __dirty: 0
+    - _colormin: 0.37
+    - _highlightpower: 41.04
+    - _mincolor: 0.37
+    m_Colors:
+    - _ASEOutlineColor: {r: 0.9411765, g: 0.65882355, b: 0.1254902, a: 0}
+    - _Color0: {r: 0.9411765, g: 0.65882355, b: 0.1254902, a: 0}
+    - _RimColor: {r: 0, g: 1, b: 0.8758622, a: 0}
+    - _colorbase: {r: 0.9411765, g: 0.65882355, b: 0.1254902, a: 0}
+  m_BuildTextureStacks: []

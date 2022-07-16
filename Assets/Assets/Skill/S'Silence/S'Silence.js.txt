@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const csharp_1 = require("csharp");
+let GetBuff = function () {
+    let re = new csharp_1.Buff_Delegate();
+    csharp_1.eve.SetBuffImageName(re, "silence");
+    return re;
+};
+let create = function (a) {
+    var re = new csharp_1.StackSkill_Delegate();
+    re.runToBreak.AddNode(new csharp_1.SN_PauseSkill_SelfPlayer());
+    re.runToBreak.AddFunc(() => {
+        console.log("silence tar: " + re.TarUnit());
+        let to = re.TarUnit();
+        csharp_1.eve.Silence(to);
+        let key = "silence";
+        csharp_1.eve.AddBuff(to, GetBuff(), key);
+        return csharp_1.SNResult.Exit;
+    });
+    return re;
+};
