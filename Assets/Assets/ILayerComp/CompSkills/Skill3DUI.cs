@@ -24,7 +24,7 @@ public class Skill3DUI : MonoBehaviour
     VarChangeEvent<bool> VisibleCall = new VarChangeEvent<bool> ();
     public MeshRenderer render;
     public float Render_W_H = 1;
-    public string TextureName = "_Texture";
+    public string TextureName = "_MainTex";
     public void OnVisibleChange()
     {
         //print("OnVisibleChange");

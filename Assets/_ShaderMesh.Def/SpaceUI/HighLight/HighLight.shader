@@ -6,7 +6,7 @@ Shader "SpaceUI/HighLight"
 {
 	Properties
 	{
-		[HDR]_Color0("Color 0", Color) = (1,1,1,1)
+		[HDR]_Color("_Color", Color) = (1,1,1,1)
 
 	}
 	
@@ -68,8 +68,8 @@ Shader "SpaceUI/HighLight"
 			};
 
 			UNITY_INSTANCING_BUFFER_START(SpaceUIHighLight)
-				UNITY_DEFINE_INSTANCED_PROP(float4, _Color0)
-#define _Color0_arr SpaceUIHighLight
+				UNITY_DEFINE_INSTANCED_PROP(float4, _Color)
+#define _Color_arr SpaceUIHighLight
 			UNITY_INSTANCING_BUFFER_END(SpaceUIHighLight)
 
 			
@@ -107,10 +107,10 @@ Shader "SpaceUI/HighLight"
 				#ifdef ASE_NEEDS_FRAG_WORLD_POSITION
 				float3 WorldPosition = i.worldPos;
 				#endif
-				float4 _Color0_Instance = UNITY_ACCESS_INSTANCED_PROP(_Color0_arr, _Color0);
+				float4 _Color_Instance = UNITY_ACCESS_INSTANCED_PROP(_Color_arr, _Color);
 				
 				
-				finalColor = _Color0_Instance;
+				finalColor = _Color_Instance;
 				return finalColor;
 			}
 			ENDCG
@@ -122,9 +122,9 @@ Shader "SpaceUI/HighLight"
 }
 /*ASEBEGIN
 Version=18935
-114;83;789;612;566.5;196;1;True;False
-Node;AmplifyShaderEditor.ColorNode;5;-274.5,-48;Inherit;False;InstancedProperty;_Color0;Color 0;0;1;[HDR];Create;True;0;0;0;False;0;False;1,1,1,1;1,1,1,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+100;83;793;659;568.5;219.5;1;True;False
+Node;AmplifyShaderEditor.ColorNode;5;-274.5,-48;Inherit;False;InstancedProperty;_Color;_Color;0;1;[HDR];Create;False;0;0;0;False;0;False;1,1,1,1;4,4,4,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;3;-6,-10;Float;False;True;-1;2;ASEMaterialInspector;100;1;SpaceUI/HighLight;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;False;True;0;1;False;-1;0;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;False;False;False;False;False;False;False;False;False;True;0;False;-1;False;True;0;False;-1;False;True;True;True;True;True;0;False;-1;False;False;False;False;False;False;False;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;False;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;1;RenderType=Opaque=RenderType;True;2;False;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;0;1;True;False;;False;0
 WireConnection;3;0;5;0
 ASEEND*/
-//CHKSM=BEC7CBE518EB495CBAE86EDC66B85DA99C01A0DF
+//CHKSM=89E73EE100B6E87C47AB69F8A5D3A56781B84D64
