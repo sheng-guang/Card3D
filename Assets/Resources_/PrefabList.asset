@@ -16,8 +16,6 @@ MonoBehaviour:
   list:
   - preName: -'ChangeVToUp
     pre: {fileID: 5421661186171751851, guid: fb73aed3d80249842a2624d8cb15052f, type: 3}
-  - preName: -'Host1
-    pre: {fileID: 4995515833770463741, guid: e28ea9f830689c0448586ad2c655d6bb, type: 3}
   - preName: -'AirDropWall
     pre: {fileID: 8846632916385356594, guid: d9571983279bfed4490db0dbfc23f1cb, type: 3}
   - preName: -'Wall
@@ -108,3 +106,7 @@ MonoBehaviour:
     pre: {fileID: 710932872143235906, guid: cedbdc4d82138440fba2ae21c0ddc7f5, type: 3}
   - preName: Assets/Mesh/M'FireBall_Mesh'Def/M'FireBall_Mesh'Def_|vfx
     pre: {fileID: 2868820472179753522, guid: a63c2565f0ef148118c30db99b2e9d9a, type: 3}
+  - preName: -'Host1'Def
+    pre: {fileID: 8798812684982932342, guid: a26ce27d91bac41c39d8fe5f86aa8a47, type: 3}
+  - preName: -'Host1
+    pre: {fileID: 9216218152901031620, guid: 8bf155fc0c518435ba3c92777f5e0058, type: 3}

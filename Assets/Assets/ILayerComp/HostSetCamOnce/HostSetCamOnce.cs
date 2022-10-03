@@ -16,7 +16,7 @@ public class HostSetCamOnce : MonoBehaviour
         //print(p.hero);
         var poss= p.hero as IRealPoss;
         //print(poss);
-        if (poss.IsNull_or_EqualNull()) return;
+        if (poss.Null_Or_EqualNull()) return;
         Cam.Target = poss;
         Destroy(this);
     }

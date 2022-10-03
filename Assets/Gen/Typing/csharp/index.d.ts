@@ -1478,25 +1478,25 @@ declare module 'csharp' {
             }
             interface Object {
                 ExTrySetExtension ($DataName: string, $value: any) : void;
-                Ex ($DataName: string) : IGetSeatObj;
-                Int ($DN: string) : IGetSeat$1<number>;
-                Bool ($DN: string) : IGetSeat$1<boolean>;
-                Float ($DN: string) : IGetSeat$1<number>;
-                V3 ($DN: string) : IGetSeat$1<UnityEngine.Vector3>;
-                Str ($DN: string) : IGetSeat$1<string>;
-                Int ($DN: string, $o: any) : IGetSeat$1<number>;
-                Bool ($DN: string, $o: any) : IGetSeat$1<boolean>;
-                Float ($DN: string, $o: any) : IGetSeat$1<number>;
-                V3 ($DN: string, $o: any) : IGetSeat$1<UnityEngine.Vector3>;
-                Str ($DN: string, $o: any) : IGetSeat$1<string>;
-                NInt ($DN: string) : IGetSeat$1<N$1<number>>;
-                NBool ($DN: string) : IGetSeat$1<N$1<boolean>>;
-                NFloat ($DN: string) : IGetSeat$1<N$1<number>>;
-                NV3 ($DN: string) : IGetSeat$1<N$1<UnityEngine.Vector3>>;
-                NInt ($DN: string, $o: any) : IGetSeat$1<N$1<number>>;
-                NBool ($DN: string, $o: any) : IGetSeat$1<N$1<boolean>>;
-                NFloat ($DN: string, $o: any) : IGetSeat$1<N$1<number>>;
-                NV3 ($DN: string, $o: any) : IGetSeat$1<N$1<UnityEngine.Vector3>>;
+                Ex ($DataName: string) : Var;
+                Int ($DN: string) : Var$1<number>;
+                Bool ($DN: string) : Var$1<boolean>;
+                Float ($DN: string) : Var$1<number>;
+                V3 ($DN: string) : Var$1<UnityEngine.Vector3>;
+                Str ($DN: string) : Var$1<string>;
+                Int ($DN: string, $o: any) : Var$1<number>;
+                Bool ($DN: string, $o: any) : Var$1<boolean>;
+                Float ($DN: string, $o: any) : Var$1<number>;
+                V3 ($DN: string, $o: any) : Var$1<UnityEngine.Vector3>;
+                Str ($DN: string, $o: any) : Var$1<string>;
+                NInt ($DN: string) : Var$1<N$1<number>>;
+                NBool ($DN: string) : Var$1<N$1<boolean>>;
+                NFloat ($DN: string) : Var$1<N$1<number>>;
+                NV3 ($DN: string) : Var$1<N$1<UnityEngine.Vector3>>;
+                NInt ($DN: string, $o: any) : Var$1<N$1<number>>;
+                NBool ($DN: string, $o: any) : Var$1<N$1<boolean>>;
+                NFloat ($DN: string, $o: any) : Var$1<N$1<number>>;
+                NV3 ($DN: string, $o: any) : Var$1<N$1<UnityEngine.Vector3>>;
                 VarFloat ($key: string, $value: number) : any;
                 VarDouble ($key: string, $value: number) : any;
                 VarInt32 ($key: string, $value: number) : any;
@@ -1625,24 +1625,24 @@ declare module 'csharp' {
                 protected [__keep_incompatibility]: never;
             }
             interface Int32 {
-                Int ($DN: string) : IGetSeat$1<number>;
-                Bool ($DN: string) : IGetSeat$1<boolean>;
-                Float ($DN: string) : IGetSeat$1<number>;
-                V3 ($DN: string) : IGetSeat$1<UnityEngine.Vector3>;
-                Str ($DN: string) : IGetSeat$1<string>;
-                Int ($DN: string, $o: any) : IGetSeat$1<number>;
-                Bool ($DN: string, $o: any) : IGetSeat$1<boolean>;
-                Float ($DN: string, $o: any) : IGetSeat$1<number>;
-                V3 ($DN: string, $o: any) : IGetSeat$1<UnityEngine.Vector3>;
-                Str ($DN: string, $o: any) : IGetSeat$1<string>;
-                NInt ($DN: string) : IGetSeat$1<N$1<number>>;
-                NBool ($DN: string) : IGetSeat$1<N$1<boolean>>;
-                NFloat ($DN: string) : IGetSeat$1<N$1<number>>;
-                NV3 ($DN: string) : IGetSeat$1<N$1<UnityEngine.Vector3>>;
-                NInt ($DN: string, $o: any) : IGetSeat$1<N$1<number>>;
-                NBool ($DN: string, $o: any) : IGetSeat$1<N$1<boolean>>;
-                NFloat ($DN: string, $o: any) : IGetSeat$1<N$1<number>>;
-                NV3 ($DN: string, $o: any) : IGetSeat$1<N$1<UnityEngine.Vector3>>;
+                Int ($DN: string) : Var$1<number>;
+                Bool ($DN: string) : Var$1<boolean>;
+                Float ($DN: string) : Var$1<number>;
+                V3 ($DN: string) : Var$1<UnityEngine.Vector3>;
+                Str ($DN: string) : Var$1<string>;
+                Int ($DN: string, $o: any) : Var$1<number>;
+                Bool ($DN: string, $o: any) : Var$1<boolean>;
+                Float ($DN: string, $o: any) : Var$1<number>;
+                V3 ($DN: string, $o: any) : Var$1<UnityEngine.Vector3>;
+                Str ($DN: string, $o: any) : Var$1<string>;
+                NInt ($DN: string) : Var$1<N$1<number>>;
+                NBool ($DN: string) : Var$1<N$1<boolean>>;
+                NFloat ($DN: string) : Var$1<N$1<number>>;
+                NV3 ($DN: string) : Var$1<N$1<UnityEngine.Vector3>>;
+                NInt ($DN: string, $o: any) : Var$1<N$1<number>>;
+                NBool ($DN: string, $o: any) : Var$1<N$1<boolean>>;
+                NFloat ($DN: string, $o: any) : Var$1<N$1<number>>;
+                NV3 ($DN: string, $o: any) : Var$1<N$1<UnityEngine.Vector3>>;
                 MaskContain ($toTest: number) : boolean;
             }
             class Enum extends System.ValueType implements System.IFormattable, System.IComparable, System.IConvertible
@@ -2473,7 +2473,7 @@ declare module 'csharp' {
                 public constructor ()
             }
         }
-            class Host1 extends Host implements IResGetter$1<ISpawnable>, IResGetter$1<Host>, IInputUser, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget, IResGetter
+            class Host1 extends Host implements IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Host>, IInputUser, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public PlayerName : string
@@ -2481,7 +2481,7 @@ declare module 'csharp' {
                 public CreatCard ($p: Player, $UnitName: string) : void
                 public constructor ()
             }
-            class Host extends LayerID implements IResGetter$1<ISpawnable>, IResGetter$1<Host>, IInputUser, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget, IResGetter
+            class Host extends LayerID implements IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Host>, IInputUser, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public Event : HostEvent
@@ -2496,7 +2496,7 @@ declare module 'csharp' {
                 public GetNew ($args: ResArgs) : Host
                 public GetNewObject ($a: ResArgs) : any
             }
-            class LayerID extends _LayerID implements IResGetter$1<ISpawnable>, IInputUser, IRealPoss, IHaveID, ISpawnable, IRes, IResGetter, IIDTarget
+            class LayerID extends _LayerID implements IResGetter, IResCreater$1<ISpawnable>, IInputUser, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public InputSkills : System.Collections.Generic.List$1<InputSkill>
@@ -2539,6 +2539,7 @@ declare module 'csharp' {
                 public RemoveUnitFollower ($u: Unit) : void
                 public ClientSetNetID ($NetID: number) : void
                 public static CreatSpawnable ($m: SpawnMsg) : void
+                public GetNewObject ($a: ResArgs) : any
                 public FullName () : string
                 public Name () : string
                 public EnsureAssetFolder () : void
@@ -2546,7 +2547,6 @@ declare module 'csharp' {
                 public ABDir () : string
                 public ABPath () : string
                 public ABAsyncPath () : string
-                public GetNewObject ($a: ResArgs) : any
             }
             interface LayerID {
                 Distance ($b: LayerID) : number;
@@ -2584,14 +2584,14 @@ declare module 'csharp' {
             interface IHaveID
             {
             }
-            interface ISpawnable
-            {
-            }
-            interface IResGetter$1<T> extends IResGetter
+            interface IResGetter
             {
                 GetNewObject ($a: ResArgs) : any
             }
-            interface IResGetter
+            interface ISpawnable
+            {
+            }
+            interface IResCreater$1<T> extends IResGetter
             {
                 GetNewObject ($a: ResArgs) : any
             }
@@ -2621,7 +2621,7 @@ declare module 'csharp' {
             interface IIDTarget
             {
             }
-            class Unit extends LayerID implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class Unit extends LayerID implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public Event : UnitEvent
@@ -2674,6 +2674,10 @@ declare module 'csharp' {
                 IsSpace ($space: number) : boolean;
                 IsState ($state: number) : boolean;
             }
+            interface ITarget
+            {
+                GetData () : IInputData
+            }
             interface ICallListener
             {
                 DoCall ($call: Call) : void
@@ -2682,11 +2686,7 @@ declare module 'csharp' {
             {
                 AfterSimulate_ () : void
             }
-            interface ITarget
-            {
-                GetData () : IInputData
-            }
-            class Player extends LayerID implements IResGetter$1<ISpawnable>, IResGetter$1<Player>, IInputUser, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget, IResGetter
+            class Player extends LayerID implements IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Player>, IInputUser, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public Event : PlayerEvent
@@ -2714,7 +2714,7 @@ declare module 'csharp' {
                 public GetNew ($args: ResArgs) : Player
                 public GetNewObject ($a: ResArgs) : any
             }
-            class TurnSkill extends Skill implements ISetKV, IInputUser, ILongSkill, ISpawnable, IIDTarget, ITarget
+            class TurnSkill extends Skill implements ITarget, IInputUser, ISetKV, ILongSkill, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public OneTurnTime : number
@@ -2725,7 +2725,7 @@ declare module 'csharp' {
                 public constructor ()
                 public AddToLongSkillList () : void
             }
-            class Skill extends System.Object implements ISetKV, IInputUser, ISpawnable, IIDTarget, ITarget
+            class Skill extends System.Object implements ITarget, IInputUser, ISetKV, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public static Pause_Off : number
@@ -2831,7 +2831,7 @@ declare module 'csharp' {
             interface ILongSkill {
                 AddToLongSkillList () : void;
             }
-            class MainLoop extends Skill implements ISetKV, IInputUser, ILongSkill, ISpawnable, IIDTarget, ITarget
+            class MainLoop extends Skill implements ITarget, IInputUser, ISetKV, ILongSkill, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public Fix () : void
@@ -2841,7 +2841,7 @@ declare module 'csharp' {
                 public constructor ()
                 public AddToLongSkillList () : void
             }
-            class Player1 extends Player implements IResGetter$1<ISpawnable>, IResGetter$1<Player>, IInputUser, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget, IResGetter
+            class Player1 extends Player implements IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Player>, IInputUser, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public MoveInput : WSDA
@@ -2863,7 +2863,7 @@ declare module 'csharp' {
             {
                 protected [__keep_incompatibility]: never;
             }
-            class Skill_wsdaMoveNotOnLand extends Skill implements ISetKV, IInputUser, IFixSkill, ISpawnable, IIDTarget, ITarget
+            class Skill_wsdaMoveNotOnLand extends Skill implements ITarget, IInputUser, ISetKV, IFixSkill, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public speed : number
@@ -2874,14 +2874,14 @@ declare module 'csharp' {
             {
                 Fix () : void
             }
-            class Skill_wsdaMove extends Skill implements ISetKV, IInputUser, IFixSkill, ISpawnable, IIDTarget, ITarget
+            class Skill_wsdaMove extends Skill implements ITarget, IInputUser, ISetKV, IFixSkill, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public speed : number
                 public Fix () : void
                 public constructor ()
             }
-            class Skill_WSDAMove_plus extends Skill implements ISetKV, IInputUser, IFixSkill, ISpawnable, IIDTarget, ITarget
+            class Skill_WSDAMove_plus extends Skill implements ITarget, IInputUser, ISetKV, IFixSkill, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public speed : number
@@ -2890,12 +2890,12 @@ declare module 'csharp' {
                 public Fix () : void
                 public constructor ()
             }
-            class Skill_CancelSkill extends StackSkill_Delegate implements ISetKV, IInputUser, IStackSkill_Delegate, IStackSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class Skill_CancelSkill extends StackSkill_Delegate implements ITarget, IInputUser, IStackSkill_Delegate, ISetKV, IStackSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class StackSkill_Delegate extends Skill_Delegate implements ISetKV, IInputUser, IStackSkill_Delegate, IStackSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class StackSkill_Delegate extends Skill_Delegate implements ITarget, IInputUser, IStackSkill_Delegate, ISetKV, IStackSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public get stackStart(): SkillNodeGroupOnce;
@@ -2909,7 +2909,7 @@ declare module 'csharp' {
                 public constructor ()
                 public AddToStackSkillList () : void
             }
-            class Skill_Delegate extends Skill implements ISetKV, IInputUser, ISpawnable, IIDTarget, ITarget
+            class Skill_Delegate extends Skill implements ITarget, IInputUser, ISetKV, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public get visible(): Func0$2<Skill, boolean>;
@@ -2939,7 +2939,7 @@ declare module 'csharp' {
             interface IStackSkill {
                 AddToStackSkillList () : void;
             }
-            class InputSkill_Delegate extends InputSkill implements ISetKV, IInputUser, ISpawnable, IInputSkill_Delegate, IIDTarget, ITarget, ISkill_Delegate
+            class InputSkill_Delegate extends InputSkill implements ITarget, IInputUser, ISetKV, ISpawnable, IInputSkill_Delegate, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public get onSetID_LoadStructure(): Act0$1<InputSkill>;
@@ -2967,7 +2967,7 @@ declare module 'csharp' {
                 public set tested_Then_RunSkill(value: Act1$2<InputSkill, InputForm>);
                 public constructor ()
             }
-            class InputSkill extends Skill implements ISetKV, IInputUser, ISpawnable, IIDTarget, ITarget
+            class InputSkill extends Skill implements ITarget, IInputUser, ISetKV, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public get IsHighLightInput(): HighLightStruct;
@@ -3143,12 +3143,12 @@ declare module 'csharp' {
             {
                 protected [__keep_incompatibility]: never;
             }
-            class Skill_SendBack extends FixSkill_Delegate implements ISetKV, IInputUser, IFixSkill_Delegate, IFixSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class Skill_SendBack extends FixSkill_Delegate implements ITarget, IInputUser, IFixSkill_Delegate, ISetKV, IFixSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class FixSkill_Delegate extends Skill implements ISetKV, IInputUser, IFixSkill_Delegate, IFixSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class FixSkill_Delegate extends Skill implements ITarget, IInputUser, IFixSkill_Delegate, ISetKV, IFixSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public get fix(): SkillNodeGroupLoop;
@@ -3183,7 +3183,7 @@ declare module 'csharp' {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class Skill_AddAnyCard extends Skill implements ISetKV, IInputUser, ISpawnable, IIDTarget, ITarget
+            class Skill_AddAnyCard extends Skill implements ITarget, IInputUser, ISetKV, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public OnSeledt ($fullname: UnitData) : void
@@ -3193,12 +3193,12 @@ declare module 'csharp' {
             {
                 protected [__keep_incompatibility]: never;
             }
-            class Flash extends LongSkil_Delegate implements ISetKV, IInputUser, ILongSkil_Delegate, ILongSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class Flash extends LongSkil_Delegate implements ITarget, IInputUser, ISetKV, ILongSkil_Delegate, ILongSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class LongSkil_Delegate extends Skill_Delegate implements ISetKV, IInputUser, ILongSkil_Delegate, ILongSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class LongSkil_Delegate extends Skill_Delegate implements ITarget, IInputUser, ISetKV, ILongSkil_Delegate, ILongSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public get fixStart(): SkillNodeGroupOnce;
@@ -3222,12 +3222,12 @@ declare module 'csharp' {
                 fix50 : SkillNodeGroupStep
                 visible : Func0$2<Skill, boolean>
             }
-            class Skill_StoreCard extends MixSkill_Delegate implements ISetKV, IInputUser, IStackSkill_Delegate, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IInputSkill_Delegate, IIDTarget, ITarget, ISkill_Delegate
+            class Skill_StoreCard extends MixSkill_Delegate implements ITarget, IInputUser, IStackSkill_Delegate, ISetKV, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IInputSkill_Delegate, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class MixSkill_Delegate extends InputSkill_Delegate implements ISetKV, IInputUser, IStackSkill_Delegate, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IInputSkill_Delegate, IIDTarget, ITarget, ISkill_Delegate
+            class MixSkill_Delegate extends InputSkill_Delegate implements ITarget, IInputUser, IStackSkill_Delegate, ISetKV, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IInputSkill_Delegate, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public get fixStart(): SkillNodeGroupOnce;
@@ -3300,19 +3300,19 @@ declare module 'csharp' {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class Skill_TriggerCard extends Skill implements ISetKV, IInputUser, IFixSkill, ISpawnable, IIDTarget, ITarget
+            class Skill_TriggerCard extends Skill implements ITarget, IInputUser, ISetKV, IFixSkill, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public Fix () : void
                 public GetResrult ($u: Unit) : void
                 public constructor ()
             }
-            class Equip extends LongSkil_Delegate implements ISetKV, IInputUser, ILongSkil_Delegate, ILongSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class Equip extends LongSkil_Delegate implements ITarget, IInputUser, ISetKV, ILongSkil_Delegate, ILongSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class Skill_Buff_SpeedUpArea extends BuffSkill implements IBuff, ISetKV, IInputUser, ISpawnable, IIDTarget, ITarget
+            class Skill_Buff_SpeedUpArea extends BuffSkill implements ITarget, IBuff, IInputUser, ISetKV, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public get FullName(): string;
@@ -3320,7 +3320,7 @@ declare module 'csharp' {
                 public ForEach ($u: Unit) : void
                 public constructor ()
             }
-            class BuffSkill extends Skill implements IBuff, ISetKV, IInputUser, ISpawnable, IIDTarget, ITarget
+            class BuffSkill extends Skill implements ITarget, IBuff, IInputUser, ISetKV, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public get NowVersion(): number;
@@ -3371,7 +3371,7 @@ declare module 'csharp' {
             interface Buff {
                 SetBuffImageName ($name: string) : void;
             }
-            class Skill_FireBallDamage extends FixSkill_Delegate implements ISetKV, IInputUser, IFixSkill_Delegate, IFixSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class Skill_FireBallDamage extends FixSkill_Delegate implements ITarget, IInputUser, IFixSkill_Delegate, ISetKV, IFixSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
@@ -3406,7 +3406,7 @@ declare module 'csharp' {
             interface SkillNodeGroup {
                 Add ($FullName: string) : SKillNode;
             }
-            class StackPauseTime_ extends StackSkill_Delegate implements ISetKV, IInputUser, IStackSkill_Delegate, IStackSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class StackPauseTime_ extends StackSkill_Delegate implements ITarget, IInputUser, IStackSkill_Delegate, ISetKV, IStackSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public PauseTime : IGet$1<number>
@@ -3415,17 +3415,17 @@ declare module 'csharp' {
             interface IGet$1<T>
             {
             }
-            class ThrowMagic extends InputSkill_Delegate implements ISetKV, IInputUser, ISpawnable, IInputSkill_Delegate, IIDTarget, ITarget, ISkill_Delegate
+            class ThrowMagic extends InputSkill_Delegate implements ITarget, IInputUser, ISetKV, ISpawnable, IInputSkill_Delegate, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class _ThrowMagic extends StackLongSkill_Delegate implements ISetKV, IInputUser, IStackSkill_Delegate, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class _ThrowMagic extends StackLongSkill_Delegate implements ITarget, IInputUser, IStackSkill_Delegate, ISetKV, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class StackLongSkill_Delegate extends Skill_Delegate implements ISetKV, IInputUser, IStackSkill_Delegate, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class StackLongSkill_Delegate extends Skill_Delegate implements ITarget, IInputUser, IStackSkill_Delegate, ISetKV, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public get fixStart(): SkillNodeGroupOnce;
@@ -3451,84 +3451,84 @@ declare module 'csharp' {
                 public AddToLongSkillList () : void
                 public AddToStackSkillList () : void
             }
-            class Skill_Summon_units extends InputSkill_Delegate implements ISetKV, IInputUser, ISpawnable, IInputSkill_Delegate, IIDTarget, ITarget, ISkill_Delegate
+            class Skill_Summon_units extends InputSkill_Delegate implements ITarget, IInputUser, ISetKV, ISpawnable, IInputSkill_Delegate, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class Skill_CreatUnit extends LongSkil_Delegate implements ISetKV, IInputUser, ILongSkil_Delegate, ILongSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class Skill_CreatUnit extends LongSkil_Delegate implements ITarget, IInputUser, ISetKV, ILongSkil_Delegate, ILongSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class UseChangeVToUp extends MixSkill_Delegate implements ISetKV, IInputUser, IStackSkill_Delegate, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IInputSkill_Delegate, IIDTarget, ITarget, ISkill_Delegate
+            class UseChangeVToUp extends MixSkill_Delegate implements ITarget, IInputUser, IStackSkill_Delegate, ISetKV, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IInputSkill_Delegate, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class UseMagicCard extends InputSkill_Delegate implements ISetKV, IInputUser, ISpawnable, IInputSkill_Delegate, IIDTarget, ITarget, ISkill_Delegate
+            class UseMagicCard extends InputSkill_Delegate implements ITarget, IInputUser, ISetKV, ISpawnable, IInputSkill_Delegate, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class AirDropWall extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class AirDropWall extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class OnTouchLand extends FixSkill_Delegate implements ISetKV, IInputUser, IFixSkill_Delegate, IFixSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class OnTouchLand extends FixSkill_Delegate implements ITarget, IInputUser, IFixSkill_Delegate, ISetKV, IFixSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class CancelSkill extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class CancelSkill extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class ChangeVToUp extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class ChangeVToUp extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class EnemyTarget extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class EnemyTarget extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class FireBall extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class FireBall extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class Hero1 extends Hero implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class Hero1 extends Hero implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public VisualPostion : UnityEngine.Transform
                 public get VisualPoss(): UnityEngine.Vector3;
                 public constructor ()
             }
-            class Hero extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class Hero extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public get CanBeHero(): Hero;
                 public get IsHero(): boolean;
             }
-            class SendBack extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class SendBack extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public c : UnityEngine.Color
                 public r : number
                 public constructor ()
             }
-            class SpaceTrigger extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class SpaceTrigger extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public c : UnityEngine.Color
                 public r : number
                 public constructor ()
             }
-            class Wall extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class Wall extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
@@ -3643,7 +3643,7 @@ declare module 'csharp' {
             {
                 SetHighLight ($b: boolean) : void
             }
-            class MeshRes extends UnityEngine.MonoBehaviour implements IResGetter$1<MeshRes>, IResData, IRes, IResGetter
+            class MeshRes extends UnityEngine.MonoBehaviour implements IResGetter, IResCreater$1<MeshRes>, IResData, IRes
             {
                 protected [__keep_incompatibility]: never;
                 public get DataKind(): string;
@@ -3651,6 +3651,7 @@ declare module 'csharp' {
                 public get DirectoryName(): string;
                 public get PackName(): string;
                 public get KindName(): string;
+                public GetNewObject ($a: ResArgs) : any
                 public FullName () : string
                 public Name () : string
                 public EnsureAssetFolder () : void
@@ -3658,7 +3659,6 @@ declare module 'csharp' {
                 public ABDir () : string
                 public ABPath () : string
                 public ABAsyncPath () : string
-                public GetNewObject ($a: ResArgs) : any
             }
             interface IResData
             {
@@ -4003,7 +4003,7 @@ declare module 'csharp' {
             {
                 protected [__keep_incompatibility]: never;
             }
-            class BuffSkill_Delegate extends BuffSkill implements IBuff, ISetKV, IInputUser, ISpawnable, IIDTarget, ITarget
+            class BuffSkill_Delegate extends BuffSkill implements ITarget, IBuff, IInputUser, ISetKV, ISpawnable, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public get A_FreshActive(): Act0$1<BuffSkill>;
@@ -4020,7 +4020,7 @@ declare module 'csharp' {
             {
                 protected [__keep_incompatibility]: never;
             }
-            class TriggerSkill_Delegate extends Skill implements ISetKV, IInputUser, ITriggerSkill_Delegate, ITriggerSkill, ISpawnable, IIDTarget, ITarget, ISkill_Delegate
+            class TriggerSkill_Delegate extends Skill implements ITarget, IInputUser, ISetKV, ITriggerSkill_Delegate, ITriggerSkill, ISpawnable, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public get visible(): Func0$2<Skill, boolean>;
@@ -4071,7 +4071,7 @@ declare module 'csharp' {
                 public firstTime : boolean
                 public constructor ()
             }
-            class VarUnit extends Unit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISetFullName, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class VarUnit extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISetFullName, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public PackName_ : string
@@ -4085,13 +4085,13 @@ declare module 'csharp' {
             interface ISetFullName
             {
             }
-            class VarUnitNoData extends VarUnit implements IResGetter$1<ISpawnable>, IResGetter$1<Unit>, IInputUser, ICallListener, IRealPoss, IAfterSimulate, IHaveID, ISetFullName, ISpawnable, IRes, IIDTarget, ITarget, IResGetter
+            class VarUnitNoData extends VarUnit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISetFullName, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public get CreatUnitData(): boolean;
                 public constructor ()
             }
-            class MixSkill_Res extends MixSkill_Delegate implements ISetKV, IInputUser, IStackSkill_Delegate, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IInputSkill_Delegate, IIDTarget, ITarget, ISkill_Delegate
+            class MixSkill_Res extends MixSkill_Delegate implements ITarget, IInputUser, IStackSkill_Delegate, ISetKV, ILongSkil_Delegate, ILongSkill, IStackSkill, IMixSkill_Delegate, IMixSkill, ISpawnable, IInputSkill_Delegate, IIDTarget, ISkill_Delegate
             {
                 protected [__keep_incompatibility]: never;
                 public F_Load : System.Action$1<MixSkill_Res>
@@ -4340,7 +4340,7 @@ declare module 'csharp' {
                 public SetStartGameTime ($t: number) : void
                 public constructor ()
             }
-            class VFXRes extends VFX implements IResGetter$1<VFX>, IRes, IResGetter
+            class VFXRes extends VFX implements IResGetter, IResCreater$1<VFX>, IRes
             {
                 protected [__keep_incompatibility]: never;
                 public get DirectoryName(): string;
@@ -4390,22 +4390,22 @@ declare module 'csharp' {
                 public static ExTrySetExtension ($obj: any, $DataName: string, $value: any) : void
                 public ExTrySetExtension ($DataName: string, $value: any) : void
             }
-            class IGetSeatObj extends IGetSeat$1<any> implements ISet$1<any>, ISetObj, IGet$1<any>
+            class Var extends Var$1<any> implements ISet$1<any>, ISetObj, IGet$1<any>
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
                 public setValue ($value: any) : void
             }
-            class IGetSeat$1<T> extends System.Object implements ISet$1<T>, ISetObj, IGet$1<T>
+            class Var$1<T> extends System.Object implements ISet$1<T>, ISetObj, IGet$1<T>
             {
                 protected [__keep_incompatibility]: never;
                 public get IGet(): IGet$1<T>;
                 public set IGet(value: IGet$1<T>);
                 public get Value(): T;
-                public TrySetDefault ($o: any) : IGetSeat$1<T>
+                public TrySetDefault ($o: any) : Var$1<T>
                 public setValue ($value: any) : void
-                public SetIGet ($o: any) : IGetSeat$1<T>
-                public static op_Implicit ($d: IGetSeat$1<T>) : any
+                public SetIGet ($o: any) : Var$1<T>
+                public static op_Implicit ($d: Var$1<T>) : any
                 public constructor ()
             }
             interface ISet$1<T>
@@ -4420,62 +4420,62 @@ declare module 'csharp' {
             class Extension extends System.Object
             {
                 protected [__keep_incompatibility]: never;
-                public static Ex ($obj: any, $DataName: string) : IGetSeatObj
-                public static Int ($h: number, $DN: string) : IGetSeat$1<number>
-                public static Bool ($h: number, $DN: string) : IGetSeat$1<boolean>
-                public static Float ($h: number, $DN: string) : IGetSeat$1<number>
-                public static V3 ($h: number, $DN: string) : IGetSeat$1<UnityEngine.Vector3>
-                public static Str ($h: number, $DN: string) : IGetSeat$1<string>
-                public static Int ($h: number, $DN: string, $o: any) : IGetSeat$1<number>
-                public static Bool ($h: number, $DN: string, $o: any) : IGetSeat$1<boolean>
-                public static Float ($h: number, $DN: string, $o: any) : IGetSeat$1<number>
-                public static V3 ($h: number, $DN: string, $o: any) : IGetSeat$1<UnityEngine.Vector3>
-                public static Str ($h: number, $DN: string, $o: any) : IGetSeat$1<string>
-                public static NInt ($h: number, $DN: string) : IGetSeat$1<N$1<number>>
-                public static NBool ($h: number, $DN: string) : IGetSeat$1<N$1<boolean>>
-                public static NFloat ($h: number, $DN: string) : IGetSeat$1<N$1<number>>
-                public static NV3 ($h: number, $DN: string) : IGetSeat$1<N$1<UnityEngine.Vector3>>
-                public static NInt ($h: number, $DN: string, $o: any) : IGetSeat$1<N$1<number>>
-                public static NBool ($h: number, $DN: string, $o: any) : IGetSeat$1<N$1<boolean>>
-                public static NFloat ($h: number, $DN: string, $o: any) : IGetSeat$1<N$1<number>>
-                public static NV3 ($h: number, $DN: string, $o: any) : IGetSeat$1<N$1<UnityEngine.Vector3>>
-                public static Int ($h: any, $DN: string) : IGetSeat$1<number>
-                public static Bool ($h: any, $DN: string) : IGetSeat$1<boolean>
-                public static Float ($h: any, $DN: string) : IGetSeat$1<number>
-                public static V3 ($h: any, $DN: string) : IGetSeat$1<UnityEngine.Vector3>
-                public static Str ($h: any, $DN: string) : IGetSeat$1<string>
-                public static Int ($h: any, $DN: string, $o: any) : IGetSeat$1<number>
-                public static Bool ($h: any, $DN: string, $o: any) : IGetSeat$1<boolean>
-                public static Float ($h: any, $DN: string, $o: any) : IGetSeat$1<number>
-                public static V3 ($h: any, $DN: string, $o: any) : IGetSeat$1<UnityEngine.Vector3>
-                public static Str ($h: any, $DN: string, $o: any) : IGetSeat$1<string>
-                public static NInt ($h: any, $DN: string) : IGetSeat$1<N$1<number>>
-                public static NBool ($h: any, $DN: string) : IGetSeat$1<N$1<boolean>>
-                public static NFloat ($h: any, $DN: string) : IGetSeat$1<N$1<number>>
-                public static NV3 ($h: any, $DN: string) : IGetSeat$1<N$1<UnityEngine.Vector3>>
-                public static NInt ($h: any, $DN: string, $o: any) : IGetSeat$1<N$1<number>>
-                public static NBool ($h: any, $DN: string, $o: any) : IGetSeat$1<N$1<boolean>>
-                public static NFloat ($h: any, $DN: string, $o: any) : IGetSeat$1<N$1<number>>
-                public static NV3 ($h: any, $DN: string, $o: any) : IGetSeat$1<N$1<UnityEngine.Vector3>>
-                public Ex ($DataName: string) : IGetSeatObj
-                public Int ($DN: string) : IGetSeat$1<number>
-                public Int ($DN: string, $o: any) : IGetSeat$1<number>
-                public Bool ($DN: string) : IGetSeat$1<boolean>
-                public Bool ($DN: string, $o: any) : IGetSeat$1<boolean>
-                public Float ($DN: string) : IGetSeat$1<number>
-                public Float ($DN: string, $o: any) : IGetSeat$1<number>
-                public V3 ($DN: string) : IGetSeat$1<UnityEngine.Vector3>
-                public V3 ($DN: string, $o: any) : IGetSeat$1<UnityEngine.Vector3>
-                public Str ($DN: string) : IGetSeat$1<string>
-                public Str ($DN: string, $o: any) : IGetSeat$1<string>
-                public NInt ($DN: string) : IGetSeat$1<N$1<number>>
-                public NInt ($DN: string, $o: any) : IGetSeat$1<N$1<number>>
-                public NBool ($DN: string) : IGetSeat$1<N$1<boolean>>
-                public NBool ($DN: string, $o: any) : IGetSeat$1<N$1<boolean>>
-                public NFloat ($DN: string) : IGetSeat$1<N$1<number>>
-                public NFloat ($DN: string, $o: any) : IGetSeat$1<N$1<number>>
-                public NV3 ($DN: string) : IGetSeat$1<N$1<UnityEngine.Vector3>>
-                public NV3 ($DN: string, $o: any) : IGetSeat$1<N$1<UnityEngine.Vector3>>
+                public static Ex ($obj: any, $DataName: string) : Var
+                public static Int ($h: number, $DN: string) : Var$1<number>
+                public static Bool ($h: number, $DN: string) : Var$1<boolean>
+                public static Float ($h: number, $DN: string) : Var$1<number>
+                public static V3 ($h: number, $DN: string) : Var$1<UnityEngine.Vector3>
+                public static Str ($h: number, $DN: string) : Var$1<string>
+                public static Int ($h: number, $DN: string, $o: any) : Var$1<number>
+                public static Bool ($h: number, $DN: string, $o: any) : Var$1<boolean>
+                public static Float ($h: number, $DN: string, $o: any) : Var$1<number>
+                public static V3 ($h: number, $DN: string, $o: any) : Var$1<UnityEngine.Vector3>
+                public static Str ($h: number, $DN: string, $o: any) : Var$1<string>
+                public static NInt ($h: number, $DN: string) : Var$1<N$1<number>>
+                public static NBool ($h: number, $DN: string) : Var$1<N$1<boolean>>
+                public static NFloat ($h: number, $DN: string) : Var$1<N$1<number>>
+                public static NV3 ($h: number, $DN: string) : Var$1<N$1<UnityEngine.Vector3>>
+                public static NInt ($h: number, $DN: string, $o: any) : Var$1<N$1<number>>
+                public static NBool ($h: number, $DN: string, $o: any) : Var$1<N$1<boolean>>
+                public static NFloat ($h: number, $DN: string, $o: any) : Var$1<N$1<number>>
+                public static NV3 ($h: number, $DN: string, $o: any) : Var$1<N$1<UnityEngine.Vector3>>
+                public static Int ($h: any, $DN: string) : Var$1<number>
+                public static Bool ($h: any, $DN: string) : Var$1<boolean>
+                public static Float ($h: any, $DN: string) : Var$1<number>
+                public static V3 ($h: any, $DN: string) : Var$1<UnityEngine.Vector3>
+                public static Str ($h: any, $DN: string) : Var$1<string>
+                public static Int ($h: any, $DN: string, $o: any) : Var$1<number>
+                public static Bool ($h: any, $DN: string, $o: any) : Var$1<boolean>
+                public static Float ($h: any, $DN: string, $o: any) : Var$1<number>
+                public static V3 ($h: any, $DN: string, $o: any) : Var$1<UnityEngine.Vector3>
+                public static Str ($h: any, $DN: string, $o: any) : Var$1<string>
+                public static NInt ($h: any, $DN: string) : Var$1<N$1<number>>
+                public static NBool ($h: any, $DN: string) : Var$1<N$1<boolean>>
+                public static NFloat ($h: any, $DN: string) : Var$1<N$1<number>>
+                public static NV3 ($h: any, $DN: string) : Var$1<N$1<UnityEngine.Vector3>>
+                public static NInt ($h: any, $DN: string, $o: any) : Var$1<N$1<number>>
+                public static NBool ($h: any, $DN: string, $o: any) : Var$1<N$1<boolean>>
+                public static NFloat ($h: any, $DN: string, $o: any) : Var$1<N$1<number>>
+                public static NV3 ($h: any, $DN: string, $o: any) : Var$1<N$1<UnityEngine.Vector3>>
+                public Ex ($DataName: string) : Var
+                public Int ($DN: string) : Var$1<number>
+                public Int ($DN: string, $o: any) : Var$1<number>
+                public Bool ($DN: string) : Var$1<boolean>
+                public Bool ($DN: string, $o: any) : Var$1<boolean>
+                public Float ($DN: string) : Var$1<number>
+                public Float ($DN: string, $o: any) : Var$1<number>
+                public V3 ($DN: string) : Var$1<UnityEngine.Vector3>
+                public V3 ($DN: string, $o: any) : Var$1<UnityEngine.Vector3>
+                public Str ($DN: string) : Var$1<string>
+                public Str ($DN: string, $o: any) : Var$1<string>
+                public NInt ($DN: string) : Var$1<N$1<number>>
+                public NInt ($DN: string, $o: any) : Var$1<N$1<number>>
+                public NBool ($DN: string) : Var$1<N$1<boolean>>
+                public NBool ($DN: string, $o: any) : Var$1<N$1<boolean>>
+                public NFloat ($DN: string) : Var$1<N$1<number>>
+                public NFloat ($DN: string, $o: any) : Var$1<N$1<number>>
+                public NV3 ($DN: string) : Var$1<N$1<UnityEngine.Vector3>>
+                public NV3 ($DN: string, $o: any) : Var$1<N$1<UnityEngine.Vector3>>
             }
             class nn extends System.Object
             {

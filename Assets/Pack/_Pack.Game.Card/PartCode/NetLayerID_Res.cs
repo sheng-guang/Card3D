@@ -14,7 +14,7 @@ public abstract partial class LayerID//ToString
     }
 }
 //layerID      //layerID      //layerID      //layerID      //layerID      //layerID      //layerID      //layerID      //layerID      //layerID      //layerID      //layerID      //layerID      //layerID  
-public abstract partial class LayerID : IRes, IResGetter<ISpawnable>//res
+public abstract partial class LayerID : IRes, IResCreater<ISpawnable>//res
 {
 
     //res
@@ -27,7 +27,7 @@ public abstract partial class LayerID : IRes, IResGetter<ISpawnable>//res
 
 
     //IResGetter
-    ISpawnable IResGetter<ISpawnable>.GetNew(ResArgs args)
+    ISpawnable IResCreater<ISpawnable>.GetNew(ResArgs args)
     {
         Debug.Log("here");
         return this.ExInstantiate(args);

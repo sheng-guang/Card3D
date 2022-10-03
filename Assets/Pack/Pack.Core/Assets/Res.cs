@@ -16,7 +16,7 @@ public interface IResGetter
 {
     object GetNewObject(ResArgs a);
 }
-public interface IResGetter<T> : IResGetter
+public interface IResCreater<T> : IResGetter
 {
     T GetNew(ResArgs a);
 }

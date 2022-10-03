@@ -118,7 +118,7 @@ public class ForResTool : Editor<ResTool>
     public static void EnsureData(ResTool tar)
     {
         IResData dataOwner = tar.GetComponent<IResData>();
-        if (dataOwner.IsNull_or_EqualNull()) return;
+        if (dataOwner.Null_Or_EqualNull()) return;
         DB.Datas(dataOwner.DataKind).EnsureData_Save(dataOwner.FullName);
 
     }

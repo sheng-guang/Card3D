@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class SkillRes_JS : MonoBehaviour, IResGetter<Skill>, IRes, IResGetter
+public class SkillRes_JS : MonoBehaviour, IResCreater<Skill>, IRes, IResGetter
 {
     public string DirectoryName => "Assets/" + nameof(Skill);
     public string PackName =>PackName_;

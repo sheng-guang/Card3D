@@ -78,7 +78,7 @@ public class GetFloat_Reach : GetFloat_Node
     {
         if (p1 != nn.Reach) return;
         if (kind != null && kind.Value != p2) return;
-        if (reach.IsNull_or_EqualNull()) return;
+        if (reach.Null_Or_EqualNull()) return;
         if (reach.Value.HasValue == false) return;
         re(reach.Value);
     }
@@ -102,13 +102,13 @@ public class GetFloat_Offset : Func2Node<InputSkill, string, int, N<float>>
         if (kind != null && kind.Value != p2) return;
         if (p1 == nn.OffSetY)
         {
-            if (OffSetY.IsNull_or_EqualNull()) return;
+            if (OffSetY.Null_Or_EqualNull()) return;
             if (OffSetY.Value.HasValue == false) return;
             re(OffSetY.Value);
         }
         else if (p1 == nn.OffSetXZ)
         {
-            if (OffSetXZ.IsNull_or_EqualNull()) return;
+            if (OffSetXZ.Null_Or_EqualNull()) return;
             if (OffSetXZ.Value.HasValue == false) return;
             re(OffSetXZ.Value);
         }
@@ -132,7 +132,7 @@ public class GetInt_Speed : GetInt_Node
     {
         if (p1 != nn.speed) return;
         if (kind != null && kind.Value != p2) return;
-        if (Speed.IsNull_or_EqualNull()) return;
+        if (Speed.Null_Or_EqualNull()) return;
         if (Speed.Value.HasValue == false) return;
         re(Speed.Value);
     }
@@ -157,7 +157,7 @@ public class GetBool_IsHighThrow : GetBool_Node
     {
         if (p1 != nn.HighThrow) return;
         if (kind != null && kind.Value != p2) return;
-        if (HighThrow.IsNull_or_EqualNull()) return;
+        if (HighThrow.Null_Or_EqualNull()) return;
         if (HighThrow.Value.HasValue == false) return;
         re(HighThrow.Value);
     }

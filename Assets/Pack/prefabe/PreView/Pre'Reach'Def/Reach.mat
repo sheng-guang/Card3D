@@ -22,7 +22,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - __dirty: 0
+    - __dirty: 1
     - _distance: 0.15
     m_Colors:
     - _Color: {r: 0, g: 5.992157, b: 0.5019608, a: 1}

@@ -10,7 +10,7 @@ public class VFX : MonoBehaviour
     }
 }
 [RequireComponent(typeof(ResTool))]
-public class VFXRes : VFX, IResGetter<VFX>, IRes
+public class VFXRes : VFX, IResCreater<VFX>, IRes
 {
     public virtual string DirectoryName => "Assets/" + "VFX";
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class ComSkill3DUI : MonoBehaviour, IResGetter<ComSkill3DUI>,IRes
+public class ComSkill3DUI : MonoBehaviour, IResCreater<ComSkill3DUI>,IRes
 {
     public string DirectoryName => "Assets/UI";
     public string PackName => "-";

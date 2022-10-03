@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public partial class StackSkillSpace : IResGetter<StackSkillSpace>, IRes
+public partial class StackSkillSpace : IResCreater<StackSkillSpace>, IRes
 {
     public string DirectoryName => "Assets/Space";
 

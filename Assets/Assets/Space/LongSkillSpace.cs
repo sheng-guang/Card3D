@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public partial class LongSkillSpace : MonoBehaviour, IResGetter<LongSkillSpace>, IRes
+public partial class LongSkillSpace : MonoBehaviour, IResCreater<LongSkillSpace>, IRes
 {
-    public string DirectoryName => "Assets/Space";
+    public static string DirName=> "Assets/Space";
+    public string DirectoryName => DirName;
 
     public string PackName => "Space";
     public string KindName => GetType().Name;
@@ -21,7 +22,7 @@ partial class LongSkillSpace//ins
     {
 
         if (_ins != null) return _ins;
-        _ins = Creater<LongSkillSpace>.GetNew("Space'LongSkillSpace");
+        _ins = Creater<LongSkillSpace>.GetNew(DirName, "Space'LongSkillSpace");
         _ins.AddToCamSpace();
         return _ins;
     }

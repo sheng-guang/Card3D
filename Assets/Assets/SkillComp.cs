@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkillComp : MonoBehaviour, IResGetter<SkillComp>, IRes
+public class SkillComp : MonoBehaviour, IResCreater<SkillComp>, IRes
 {
     public string DirectoryName => "Assets/" + nameof(SkillComp);
 
