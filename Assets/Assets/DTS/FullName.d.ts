@@ -3,10 +3,10 @@ declare module 'FullName'{
     class Buff {
       public static B_ReduceFee : string="B'ReduceFee";
     }
+    class Driver {
+    }
     class DTS {
       public static Resources : string="Resources";
-    }
-    class Driver {
     }
     class Host {
       public static __Host1 : string="-'Host1";
@@ -14,14 +14,14 @@ declare module 'FullName'{
     class ILayerComp {
       public static __CardMesh : string="-'CardMesh";
       public static __ComHost1UI : string="-'ComHost1UI";
-      public static __ComUnit3DUI : string="-'ComUnit3DUI";
       public static __CompChooseUnit : string="-'CompChooseUnit";
       public static __CompPlayerUnitController : string="-'CompPlayerUnitController";
+      public static __ComUnit3DUI : string="-'ComUnit3DUI";
       public static ComHostSkillUI : string="ComHostSkillUI";
-      public static ComRig : string="ComRig";
-      public static ComTeamIcon : string="ComTeamIcon";
       public static CompBuffs : string="CompBuffs";
       public static CompSkills : string="CompSkills";
+      public static ComRig : string="ComRig";
+      public static ComTeamIcon : string="ComTeamIcon";
       public static FixY : string="FixY";
       public static HeroMesh : string="HeroMesh";
       public static HostSetCamOnce : string="HostSetCamOnce";
@@ -47,22 +47,22 @@ declare module 'FullName'{
       public static CancelSkill : string="CancelSkill";
       public static InputSkill_Delegate : string="InputSkill_Delegate";
       public static S_Destroy : string="S'Destroy";
+      public static S_flash : string="S'flash";
+      public static S_floatUnit : string="S'floatUnit";
       public static S_OnSummonAddAtk : string="S'OnSummonAddAtk";
       public static S_ReduceFee : string="S'ReduceFee";
       public static S_Silence : string="S'Silence";
       public static S_StackPause_ : string="S'StackPause_";
-      public static S_flash : string="S'flash";
-      public static S_floatUnit : string="S'floatUnit";
-      public static SN_ : string="SN_";
       public static SendBack : string="SendBack";
       public static SkillOneTar_ : string="SkillOneTar_";
       public static Skill_ : string="Skill_";
       public static Skill_Buff_SpeedUpArea : string="Skill_Buff_SpeedUpArea";
       public static Skill_FireBallDamage : string="Skill_FireBallDamage";
+      public static SN_ : string="SN_";
       public static StackPauseTime_ : string="StackPauseTime_";
       public static ThrowMagic : string="ThrowMagic";
-      public static UseMagicCard : string="UseMagicCard";
       public static usecard : string="usecard";
+      public static UseMagicCard : string="UseMagicCard";
     }
     class SkillComp {
       public static __LongSkillComp : string="-'LongSkillComp";

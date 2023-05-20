@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Var : Var<object>
@@ -30,6 +31,17 @@ public static class ExTest
         return false;
     }
 }
+
+public interface IExtension 
+{
+    public int this[string name]
+    {
+        get; set;
+    }
+}
+
+
+
 [Api]
 public static class Extension
 {

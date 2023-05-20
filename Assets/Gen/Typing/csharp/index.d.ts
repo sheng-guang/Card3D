@@ -15,7 +15,7 @@ declare module 'csharp' {
         interface $Task<T> {}
         namespace UnityEngine {
             /** Representation of 3D vectors and points. */
-            class Vector3 extends System.ValueType implements System.IEquatable$1<UnityEngine.Vector3>, System.IFormattable
+            class Vector3 extends System.ValueType implements System.IFormattable, System.IEquatable$1<UnityEngine.Vector3>
             {
                 protected [__keep_incompatibility]: never;
                 public static kEpsilon : number
@@ -48,6 +48,22 @@ declare module 'csharp' {
                 public static get positiveInfinity(): UnityEngine.Vector3;
                 /** Shorthand for writing Vector3(float.NegativeInfinity, float.NegativeInfinity, float.NegativeInfinity). */
                 public static get negativeInfinity(): UnityEngine.Vector3;
+                /** Spherically interpolates between two vectors. */
+                public static Slerp ($a: UnityEngine.Vector3, $b: UnityEngine.Vector3, $t: number) : UnityEngine.Vector3
+                /** Spherically interpolates between two vectors. */
+                public static SlerpUnclamped ($a: UnityEngine.Vector3, $b: UnityEngine.Vector3, $t: number) : UnityEngine.Vector3
+                /** Makes vectors normalized and orthogonal to each other. */
+                public static OrthoNormalize ($normal: $Ref<UnityEngine.Vector3>, $tangent: $Ref<UnityEngine.Vector3>) : void
+                /** Makes vectors normalized and orthogonal to each other. */
+                public static OrthoNormalize ($normal: $Ref<UnityEngine.Vector3>, $tangent: $Ref<UnityEngine.Vector3>, $binormal: $Ref<UnityEngine.Vector3>) : void
+                /** Rotates a vector current towards target.
+                * @param current The vector being managed.
+                * @param target The vector.
+                * @param maxRadiansDelta The maximum angle in radians allowed for this rotation.
+                * @param maxMagnitudeDelta The maximum allowed change in vector magnitude for this rotation.
+                * @returns The location that RotateTowards generates. 
+                */
+                public static RotateTowards ($current: UnityEngine.Vector3, $target: UnityEngine.Vector3, $maxRadiansDelta: number, $maxMagnitudeDelta: number) : UnityEngine.Vector3
                 /** Linearly interpolates between two points.
                 * @param a Start value, returned when t = 0.
                 * @param b End value, returned when t = 1.
@@ -156,22 +172,6 @@ declare module 'csharp' {
                 * @param formatProvider An object that specifies culture-specific formatting.
                 */
                 public ToString ($format: string, $formatProvider: System.IFormatProvider) : string
-                /** Spherically interpolates between two vectors. */
-                public static Slerp ($a: UnityEngine.Vector3, $b: UnityEngine.Vector3, $t: number) : UnityEngine.Vector3
-                /** Spherically interpolates between two vectors. */
-                public static SlerpUnclamped ($a: UnityEngine.Vector3, $b: UnityEngine.Vector3, $t: number) : UnityEngine.Vector3
-                /** Makes vectors normalized and orthogonal to each other. */
-                public static OrthoNormalize ($normal: $Ref<UnityEngine.Vector3>, $tangent: $Ref<UnityEngine.Vector3>) : void
-                /** Makes vectors normalized and orthogonal to each other. */
-                public static OrthoNormalize ($normal: $Ref<UnityEngine.Vector3>, $tangent: $Ref<UnityEngine.Vector3>, $binormal: $Ref<UnityEngine.Vector3>) : void
-                /** Rotates a vector current towards target.
-                * @param current The vector being managed.
-                * @param target The vector.
-                * @param maxRadiansDelta The maximum angle in radians allowed for this rotation.
-                * @param maxMagnitudeDelta The maximum allowed change in vector magnitude for this rotation.
-                * @returns The location that RotateTowards generates. 
-                */
-                public static RotateTowards ($current: UnityEngine.Vector3, $target: UnityEngine.Vector3, $maxRadiansDelta: number, $maxMagnitudeDelta: number) : UnityEngine.Vector3
                 public constructor ($x: number, $y: number, $z: number)
                 public constructor ($x: number, $y: number)
                 public Equals ($obj: any) : boolean
@@ -391,7 +391,7 @@ declare module 'csharp' {
             {
             }
             /** Representation of RGBA colors. */
-            class Color extends System.ValueType implements System.IEquatable$1<UnityEngine.Color>, System.IFormattable
+            class Color extends System.ValueType implements System.IFormattable, System.IEquatable$1<UnityEngine.Color>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -877,12 +877,12 @@ declare module 'csharp' {
                 MoveTransfTo ($par: UnityEngine.Component, $PossToZero?: boolean, $RoToZero?: boolean, $ScaleToOne?: boolean) : void;
             }
             /** Quaternions are used to represent rotations. */
-            class Quaternion extends System.ValueType implements System.IEquatable$1<UnityEngine.Quaternion>, System.IFormattable
+            class Quaternion extends System.ValueType implements System.IFormattable, System.IEquatable$1<UnityEngine.Quaternion>
             {
                 protected [__keep_incompatibility]: never;
             }
             /** A standard 4x4 transformation matrix. */
-            class Matrix4x4 extends System.ValueType implements System.IEquatable$1<UnityEngine.Matrix4x4>, System.IFormattable
+            class Matrix4x4 extends System.ValueType implements System.IFormattable, System.IEquatable$1<UnityEngine.Matrix4x4>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1208,7 +1208,7 @@ declare module 'csharp' {
             enum ParticleSystemScalingMode
             { Hierarchy = 0, Local = 1, Shape = 2 }
             /** Representation of four-dimensional vectors. */
-            class Vector4 extends System.ValueType implements System.IEquatable$1<UnityEngine.Vector4>, System.IFormattable
+            class Vector4 extends System.ValueType implements System.IFormattable, System.IEquatable$1<UnityEngine.Vector4>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1300,7 +1300,7 @@ declare module 'csharp' {
             enum RenderMode
             { ScreenSpaceOverlay = 0, ScreenSpaceCamera = 1, WorldSpace = 2 }
             /** A 2D Rectangle defined by X and Y position, width and height. */
-            class Rect extends System.ValueType implements System.IEquatable$1<UnityEngine.Rect>, System.IFormattable
+            class Rect extends System.ValueType implements System.IFormattable, System.IEquatable$1<UnityEngine.Rect>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1308,7 +1308,7 @@ declare module 'csharp' {
             enum AdditionalCanvasShaderChannels
             { None = 0, TexCoord1 = 1, TexCoord2 = 2, TexCoord3 = 4, Normal = 8, Tangent = 16 }
             /** Representation of 2D vectors and points. */
-            class Vector2 extends System.ValueType implements System.IEquatable$1<UnityEngine.Vector2>, System.IFormattable
+            class Vector2 extends System.ValueType implements System.IFormattable, System.IEquatable$1<UnityEngine.Vector2>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1445,7 +1445,7 @@ declare module 'csharp' {
                 protected [__keep_incompatibility]: never;
             }
             /** Representation of 2D vectors and points using integers. */
-            class Vector2Int extends System.ValueType implements System.IEquatable$1<UnityEngine.Vector2Int>, System.IFormattable
+            class Vector2Int extends System.ValueType implements System.IFormattable, System.IEquatable$1<UnityEngine.Vector2Int>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1504,10 +1504,10 @@ declare module 'csharp' {
                 Var ($key: string, $value: any) : any;
                 Print () : void;
             }
-            interface IEquatable$1<T>
+            interface IFormattable
             {
             }
-            interface IFormattable
+            interface IEquatable$1<T>
             {
             }
             interface Action$1<T>
@@ -1525,7 +1525,7 @@ declare module 'csharp' {
             Invoke?: (...args:any[]) => any;
             }
             var MulticastDelegate: { new (func: (...args:any[]) => any): MulticastDelegate; }
-            class Delegate extends System.Object implements System.ICloneable, System.Runtime.Serialization.ISerializable
+            class Delegate extends System.Object implements System.Runtime.Serialization.ISerializable, System.ICloneable
             {
                 protected [__keep_incompatibility]: never;
                 public get Method(): System.Reflection.MethodInfo;
@@ -1563,7 +1563,7 @@ declare module 'csharp' {
             Invoke?: (ar: System.IAsyncResult) => void;
             }
             var AsyncCallback: { new (func: (ar: System.IAsyncResult) => void): AsyncCallback; }
-            class IntPtr extends System.ValueType implements System.IEquatable$1<System.IntPtr>, System.Runtime.Serialization.ISerializable
+            class IntPtr extends System.ValueType implements System.Runtime.Serialization.ISerializable, System.IEquatable$1<System.IntPtr>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1572,42 +1572,7 @@ declare module 'csharp' {
             () : TResult; 
             Invoke?: () => TResult;
             }
-            class Boolean extends System.ValueType implements System.IEquatable$1<boolean>, System.IComparable, System.IComparable$1<boolean>, System.IConvertible
-            {
-                protected [__keep_incompatibility]: never;
-            }
-            interface IComparable
-            {
-            }
-            interface IComparable$1<T>
-            {
-            }
-            interface IConvertible
-            {
-            }
-            class String extends System.Object implements System.IEquatable$1<string>, System.ICloneable, System.Collections.Generic.IEnumerable$1<number>, System.IComparable, System.IComparable$1<string>, System.Collections.IEnumerable, System.IConvertible
-            {
-                protected [__keep_incompatibility]: never;
-            }
-            interface String {
-                ToAssets () : System.Array$1<UnityEngine.Object>;
-                DeleTXT () : boolean;
-                EnsureTXT () : System.IO.FileInfo;
-                Split_ ($option: System.StringSplitOptions, ...Separator: number[]) : System.Array$1<string>;
-                Split_ (...Separator: number[]) : System.Array$1<string>;
-                Split_ () : System.Array$1<string>;
-                ToStreamingAssetFullPath () : string;
-                ToFullFilePath ($fileType?: string) : string;
-                GetDire () : System.IO.DirectoryInfo;
-                ToFileInfo () : System.IO.FileInfo;
-                ToDirectoryInfos ($option?: System.IO.SearchOption, $Forsearch?: string) : System.Array$1<System.IO.DirectoryInfo>;
-                ToFileinfos ($fosearch?: string, $option?: System.IO.SearchOption) : System.Array$1<System.IO.FileInfo>;
-            }
-            class Char extends System.ValueType implements System.IEquatable$1<number>, System.IComparable, System.IComparable$1<number>, System.IConvertible
-            {
-                protected [__keep_incompatibility]: never;
-            }
-            class Single extends System.ValueType implements System.IEquatable$1<number>, System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<number>, System.IConvertible
+            class Single extends System.ValueType implements System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<number>, System.IConvertible, System.IEquatable$1<number>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1620,7 +1585,20 @@ declare module 'csharp' {
             interface ISpanFormattable
             {
             }
-            class Int32 extends System.ValueType implements System.IEquatable$1<number>, System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<number>, System.IConvertible
+            interface IComparable
+            {
+            }
+            interface IComparable$1<T>
+            {
+            }
+            interface IConvertible
+            {
+            }
+            class Boolean extends System.ValueType implements System.IComparable, System.IComparable$1<boolean>, System.IConvertible, System.IEquatable$1<boolean>
+            {
+                protected [__keep_incompatibility]: never;
+            }
+            class Int32 extends System.ValueType implements System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<number>, System.IConvertible, System.IEquatable$1<number>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1645,11 +1623,33 @@ declare module 'csharp' {
                 NV3 ($DN: string, $o: any) : Var$1<N$1<UnityEngine.Vector3>>;
                 MaskContain ($toTest: number) : boolean;
             }
+            class String extends System.Object implements System.ICloneable, System.IComparable, System.IComparable$1<string>, System.IConvertible, System.Collections.Generic.IEnumerable$1<number>, System.Collections.IEnumerable, System.IEquatable$1<string>
+            {
+                protected [__keep_incompatibility]: never;
+            }
+            interface String {
+                ToAssets () : System.Array$1<UnityEngine.Object>;
+                DeleTXT () : boolean;
+                EnsureTXT () : System.IO.FileInfo;
+                Split_ ($option: System.StringSplitOptions, ...Separator: number[]) : System.Array$1<string>;
+                Split_ (...Separator: number[]) : System.Array$1<string>;
+                Split_ () : System.Array$1<string>;
+                ToStreamingAssetFullPath () : string;
+                ToFullFilePath ($fileType?: string) : string;
+                GetDire () : System.IO.DirectoryInfo;
+                ToFileInfo () : System.IO.FileInfo;
+                ToDirectoryInfos ($option?: System.IO.SearchOption, $Forsearch?: string) : System.Array$1<System.IO.DirectoryInfo>;
+                ToFileinfos ($fosearch?: string, $option?: System.IO.SearchOption) : System.Array$1<System.IO.FileInfo>;
+            }
+            class Char extends System.ValueType implements System.IComparable, System.IComparable$1<number>, System.IConvertible, System.IEquatable$1<number>
+            {
+                protected [__keep_incompatibility]: never;
+            }
             class Enum extends System.ValueType implements System.IFormattable, System.IComparable, System.IConvertible
             {
                 protected [__keep_incompatibility]: never;
             }
-            class Exception extends System.Object implements System.Runtime.InteropServices._Exception, System.Runtime.Serialization.ISerializable
+            class Exception extends System.Object implements System.Runtime.Serialization.ISerializable, System.Runtime.InteropServices._Exception
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1674,27 +1674,27 @@ declare module 'csharp' {
             (x: T, y: T) : number; 
             Invoke?: (x: T, y: T) => number;
             }
-            class Double extends System.ValueType implements System.IEquatable$1<number>, System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<number>, System.IConvertible
+            class Double extends System.ValueType implements System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<number>, System.IConvertible, System.IEquatable$1<number>
             {
                 protected [__keep_incompatibility]: never;
             }
-            class Type extends System.Reflection.MemberInfo implements System.Reflection.ICustomAttributeProvider, System.Reflection.IReflect, System.Runtime.InteropServices._MemberInfo, System.Runtime.InteropServices._Type
+            class Type extends System.Reflection.MemberInfo implements System.Runtime.InteropServices._MemberInfo, System.Runtime.InteropServices._Type, System.Reflection.ICustomAttributeProvider, System.Reflection.IReflect
             {
                 protected [__keep_incompatibility]: never;
             }
-            class Array extends System.Object implements System.Collections.IStructuralComparable, System.Collections.IStructuralEquatable, System.Collections.ICollection, System.ICloneable, System.Collections.IEnumerable, System.Collections.IList
+            class Array extends System.Object implements System.Collections.IStructuralComparable, System.Collections.IStructuralEquatable, System.ICloneable, System.Collections.ICollection, System.Collections.IEnumerable, System.Collections.IList
             {
                 protected [__keep_incompatibility]: never;
             }
-            class UInt64 extends System.ValueType implements System.IEquatable$1<bigint>, System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<bigint>, System.IConvertible
+            class UInt64 extends System.ValueType implements System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<bigint>, System.IConvertible, System.IEquatable$1<bigint>
             {
                 protected [__keep_incompatibility]: never;
             }
-            class UInt32 extends System.ValueType implements System.IEquatable$1<number>, System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<number>, System.IConvertible
+            class UInt32 extends System.ValueType implements System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<number>, System.IConvertible, System.IEquatable$1<number>
             {
                 protected [__keep_incompatibility]: never;
             }
-            class Byte extends System.ValueType implements System.IEquatable$1<number>, System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<number>, System.IConvertible
+            class Byte extends System.ValueType implements System.IFormattable, System.ISpanFormattable, System.IComparable, System.IComparable$1<number>, System.IConvertible, System.IEquatable$1<number>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1839,7 +1839,7 @@ declare module 'csharp' {
             interface IEnumerator$1<T> extends System.Collections.IEnumerator, System.IDisposable
             {
             }
-            class Dictionary$2<TKey, TValue> extends System.Object implements System.Collections.Generic.IReadOnlyDictionary$2<TKey, TValue>, System.Collections.Generic.IDictionary$2<TKey, TValue>, System.Collections.ICollection, System.Collections.IDictionary, System.Collections.Generic.IEnumerable$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Runtime.Serialization.IDeserializationCallback, System.Collections.IEnumerable, System.Runtime.Serialization.ISerializable, System.Collections.Generic.IReadOnlyCollection$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Collections.Generic.ICollection$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>
+            class Dictionary$2<TKey, TValue> extends System.Object implements System.Runtime.Serialization.IDeserializationCallback, System.Collections.Generic.IReadOnlyDictionary$2<TKey, TValue>, System.Collections.Generic.IDictionary$2<TKey, TValue>, System.Runtime.Serialization.ISerializable, System.Collections.ICollection, System.Collections.IDictionary, System.Collections.Generic.IEnumerable$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Collections.IEnumerable, System.Collections.Generic.IReadOnlyCollection$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Collections.Generic.ICollection$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>
             {
                 protected [__keep_incompatibility]: never;
                 public get Comparer(): System.Collections.Generic.IEqualityComparer$1<TKey>;
@@ -1956,7 +1956,7 @@ declare module 'csharp' {
             }
         }
         namespace System.Reflection {
-            class MemberInfo extends System.Object implements System.Reflection.ICustomAttributeProvider, System.Runtime.InteropServices._MemberInfo
+            class MemberInfo extends System.Object implements System.Runtime.InteropServices._MemberInfo, System.Reflection.ICustomAttributeProvider
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -1966,11 +1966,11 @@ declare module 'csharp' {
             interface IReflect
             {
             }
-            class MethodInfo extends System.Reflection.MethodBase implements System.Runtime.InteropServices._MethodInfo, System.Reflection.ICustomAttributeProvider, System.Runtime.InteropServices._MemberInfo, System.Runtime.InteropServices._MethodBase
+            class MethodInfo extends System.Reflection.MethodBase implements System.Runtime.InteropServices._MemberInfo, System.Runtime.InteropServices._MethodBase, System.Runtime.InteropServices._MethodInfo, System.Reflection.ICustomAttributeProvider
             {
                 protected [__keep_incompatibility]: never;
             }
-            class MethodBase extends System.Reflection.MemberInfo implements System.Reflection.ICustomAttributeProvider, System.Runtime.InteropServices._MemberInfo, System.Runtime.InteropServices._MethodBase
+            class MethodBase extends System.Reflection.MemberInfo implements System.Runtime.InteropServices._MemberInfo, System.Runtime.InteropServices._MethodBase, System.Reflection.ICustomAttributeProvider
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -2093,7 +2093,7 @@ declare module 'csharp' {
             }
         }
         namespace Unity.Collections {
-            class NativeArray$1<T> extends System.ValueType implements System.IEquatable$1<Unity.Collections.NativeArray$1<T>>, System.Collections.Generic.IEnumerable$1<T>, System.Collections.IEnumerable, System.IDisposable
+            class NativeArray$1<T> extends System.ValueType implements System.Collections.Generic.IEnumerable$1<T>, System.Collections.IEnumerable, System.IDisposable, System.IEquatable$1<Unity.Collections.NativeArray$1<T>>
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -2246,7 +2246,7 @@ declare module 'csharp' {
             interface ICanvasElement
             {
             }
-            class Image extends UnityEngine.UI.MaskableGraphic implements UnityEngine.UI.IMaterialModifier, UnityEngine.UI.IMaskable, UnityEngine.UI.ICanvasElement, UnityEngine.UI.ILayoutElement, UnityEngine.UI.IClippable, UnityEngine.ICanvasRaycastFilter, UnityEngine.ISerializationCallbackReceiver
+            class Image extends UnityEngine.UI.MaskableGraphic implements UnityEngine.UI.IMaterialModifier, UnityEngine.UI.IMaskable, UnityEngine.ICanvasRaycastFilter, UnityEngine.UI.ICanvasElement, UnityEngine.UI.ILayoutElement, UnityEngine.ISerializationCallbackReceiver, UnityEngine.UI.IClippable
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -2621,7 +2621,7 @@ declare module 'csharp' {
             interface IIDTarget
             {
             }
-            class Unit extends LayerID implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class Unit extends LayerID implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public Event : UnitEvent
@@ -3471,7 +3471,7 @@ declare module 'csharp' {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class AirDropWall extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class AirDropWall extends Unit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
@@ -3481,54 +3481,54 @@ declare module 'csharp' {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class CancelSkill extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class CancelSkill extends Unit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class ChangeVToUp extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class ChangeVToUp extends Unit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class EnemyTarget extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class EnemyTarget extends Unit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class FireBall extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class FireBall extends Unit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
             }
-            class Hero1 extends Hero implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class Hero1 extends Hero implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public VisualPostion : UnityEngine.Transform
                 public get VisualPoss(): UnityEngine.Vector3;
                 public constructor ()
             }
-            class Hero extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class Hero extends Unit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public get CanBeHero(): Hero;
                 public get IsHero(): boolean;
             }
-            class SendBack extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class SendBack extends Unit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public c : UnityEngine.Color
                 public r : number
                 public constructor ()
             }
-            class SpaceTrigger extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class SpaceTrigger extends Unit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public c : UnityEngine.Color
                 public r : number
                 public constructor ()
             }
-            class Wall extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
+            class Wall extends Unit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public constructor ()
@@ -3568,7 +3568,7 @@ declare module 'csharp' {
             interface IUpdata_ {
                 AddToUpDate_List () : void;
             }
-            class Param$1<T> extends System.Object implements IBuffSysData, INetData$1<T>, ISetObj, IGet$1<T>, IParam$1<T>
+            class Param$1<T> extends System.Object implements IBuffSysData, ISetObj, INetData$1<T>, IParam$1<T>, IGet$1<T>
             {
                 protected [__keep_incompatibility]: never;
                 public setValue ($value: any) : void
@@ -3576,12 +3576,12 @@ declare module 'csharp' {
             interface IBuffSysData
             {
             }
-            interface INetData$1<T>
-            {
-            }
             interface ISetObj
             {
                 setValue ($value: any) : void
+            }
+            interface INetData$1<T>
+            {
             }
             interface IParam$1<T> extends IGet$1<T>
             {
@@ -4071,7 +4071,7 @@ declare module 'csharp' {
                 public firstTime : boolean
                 public constructor ()
             }
-            class VarUnit extends Unit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISetFullName, ISpawnable, IRes, IIDTarget
+            class VarUnit extends Unit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, ISetFullName, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public PackName_ : string
@@ -4085,7 +4085,7 @@ declare module 'csharp' {
             interface ISetFullName
             {
             }
-            class VarUnitNoData extends VarUnit implements ITarget, IResGetter, IResCreater$1<ISpawnable>, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISetFullName, ISpawnable, IRes, IIDTarget
+            class VarUnitNoData extends VarUnit implements IResGetter, IResCreater$1<ISpawnable>, ITarget, IResCreater$1<Unit>, IInputUser, ICallListener, IAfterSimulate, IRealPoss, IHaveID, ISpawnable, ISetFullName, IRes, IIDTarget
             {
                 protected [__keep_incompatibility]: never;
                 public get CreatUnitData(): boolean;
@@ -4232,7 +4232,7 @@ declare module 'csharp' {
                 protected [__keep_incompatibility]: never;
                 public static ChangeUseAB () : void
             }
-            class ForResTool extends Editor$1<ResTool> implements UnityEditor.IPreviewable, UnityEditor.IToolModeOwner
+            class ForResTool extends Editor$1<ResTool> implements UnityEditor.IToolModeOwner, UnityEditor.IPreviewable
             {
                 protected [__keep_incompatibility]: never;
                 public SortComponet () : void
@@ -4268,7 +4268,7 @@ declare module 'csharp' {
                 AfterAsPrefabe1 ($res: IRes) : void
                 AfterAsPrefabe2 ($res: IRes) : void
             }
-            class Editor$1<T> extends UnityEditor.Editor implements UnityEditor.IPreviewable, UnityEditor.IToolModeOwner
+            class Editor$1<T> extends UnityEditor.Editor implements UnityEditor.IToolModeOwner, UnityEditor.IPreviewable
             {
                 protected [__keep_incompatibility]: never;
             }
@@ -4416,6 +4416,11 @@ declare module 'csharp' {
                 protected [__keep_incompatibility]: never;
                 public static TestNull ($hash: number, $DN: string) : boolean
                 public static TestNull ($obj: any, $DN: string) : boolean
+            }
+            interface IExtension
+            {
+                get_Item ($name: string) : number
+                set_Item ($name: string, $value: number) : void
             }
             class Extension extends System.Object
             {
@@ -5166,14 +5171,14 @@ declare module 'csharp' {
         }
         namespace UnityEditor {
             /** Derive from this base class to create a custom inspector or editor for your custom object. */
-            class Editor extends UnityEngine.ScriptableObject implements UnityEditor.IPreviewable, UnityEditor.IToolModeOwner
+            class Editor extends UnityEngine.ScriptableObject implements UnityEditor.IToolModeOwner, UnityEditor.IPreviewable
             {
                 protected [__keep_incompatibility]: never;
             }
-            interface IPreviewable
+            interface IToolModeOwner
             {
             }
-            interface IToolModeOwner
+            interface IPreviewable
             {
             }
             /** Derive from this class to create an editor window. */
